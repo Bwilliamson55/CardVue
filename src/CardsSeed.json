@@ -1,0 +1,2965 @@
+{
+    "Cards": [
+        {
+            "id": 0,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "admin_reload.png",
+            "Name": "Admin Reload",
+            "Suppy Line": "The Stilts (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": "When you stow your weapon, it reloads.",
+            "Effects": {
+                "Qualitative": "Admin Reload"
+            }
+        },
+        {
+            "id": 1,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "adrenaline_fueled.png",
+            "Name": "Adrenaline Fueled",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": "When you kill an enemy, gain 7 Stamina over 7 seconds, stacking up to 5 times.",
+            "Effects": {
+                "Qualitative": "1 Stam/s x 7s Per Kill - 5 stacks max"
+            }
+        },
+        {
+            "id": 2,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Discipline",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "ammo_belt.png",
+            "Name": "Ammo Belt",
+            "Suppy Line": "Paul's Alley",
+            "Supply Track": "Alley",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +50% Ammo Capacity, +15% Reload Speed",
+            "Effects": {
+                "Reload Speed": "0.15",
+                "Ammo Capacity": "0.5"
+            }
+        },
+        {
+            "id": 3,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "Yes",
+            "Copper Cost": "800",
+            "Image": "ammo_for_all.png",
+            "Name": "Ammo For All",
+            "Suppy Line": "Paul's Alley",
+            "Supply Track": "Alley",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +10% Team Ammo Capacity, +1% Team Damage",
+            "Effects": {
+                "Team Damage": "0.01",
+                "Team Ammo Capacity": "0.1"
+            }
+        },
+        {
+            "id": 4,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "ammo_mule.png",
+            "Name": "Ammo Mule",
+            "Suppy Line": "The Stilts",
+            "Supply Track": "Alley",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": " +75% Ammo Capacity, -5% Move Speed",
+            "Effects": {
+                "Ammo Capacity": "0.75",
+                "Move Speed": "-0.05"
+            }
+        },
+        {
+            "id": 5,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Discipline",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "ammo_pouch.png",
+            "Name": "Ammo Pouch",
+            "Suppy Line": "The Strip",
+            "Supply Track": "The Strip",
+            "Position In Track": "0",
+            "Damage Type": "-",
+            "Effect Description ": " +25% Ammo Capacity, +2.5% Bullet Damage",
+            "Effects": {
+                "Bullet Damage": "0.025",
+                "Ammo Capacity": "0.25"
+            }
+        },
+        {
+            "id": 6,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "N/A",
+            "Image": "ammo_scavenger.png",
+            "Name": "Ammo Scavenger",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": "You can sense Nearby Ammo, More ammo spawns",
+            "Effects": {
+                "Qualitative": "Ammo Scavenger"
+            }
+        },
+        {
+            "id": 7,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "ammo_stash.png",
+            "Name": "Ammo Stash",
+            "Suppy Line": "Bridge Town (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": "Your secondary weapons have Unlimited Ammo. Your secondary weapons reload 20% Slower",
+            "Effects": {
+                "Qualitative": "Ammo Stash"
+            }
+        },
+        {
+            "id": 8,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "Yes",
+            "Copper Cost": "275",
+            "Image": "amped_up.png",
+            "Name": "Amped Up",
+            "Suppy Line": "The Furnace (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": "When a horde is triggered, your team gains 25 Temporary Health.",
+            "Effects": {
+                "Qualitative": "When a horde is triggered",
+                "Team Temporary Health": "25"
+            }
+        },
+        {
+            "id": 9,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "antibiotic_ointment.png",
+            "Name": "Antibiotic Ointment",
+            "Suppy Line": "Starter Deck",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": " +25% Healing Efficiency, When you use a medical Accessory, the target gains 10 Temporary Health.",
+            "Effects": {
+                "Qualitative": "When you use a medical Accessory, the target gains 10 Temporary Health",
+                "Healing Efficiency": "0.25"
+            }
+        },
+        {
+            "id": 10,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "Yes",
+            "Copper Cost": "800",
+            "Image": "avenge_the_fallen.png",
+            "Name": "Avenge the Fallen",
+            "Suppy Line": "Fort Hope",
+            "Supply Track": "Alley",
+            "Position In Track": "3",
+            "Damage Type": "Flat",
+            "Effect Description ": "When you or a teammate becomes incapacitated, all teammates gain 30% Damage, 20% Reload Speed, and Unlimited Ammo for 10 Seconds.",
+            "Effects": {
+                "Qualitative": "When you or a teammate becomes incapacitated, for 10 seconds all teammates gain",
+                "Reload Speed": "0.2",
+                "Damage": "0.3",
+                "Unlimited Ammo": "1"
+            }
+        },
+        {
+            "id": 11,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "batter_up.png",
+            "Name": "Batter Up",
+            "Suppy Line": "Fort Hope",
+            "Supply Track": "Alley",
+            "Position In Track": "3",
+            "Damage Type": "Melee",
+            "Effect Description ": " +40% Melee Damage, +5 Health",
+            "Effects": {
+                "Melee Damage": "0.4",
+                "Health": "5"
+            }
+        },
+        {
+            "id": 12,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "battle_lust.png",
+            "Name": "Battle Lust",
+            "Suppy Line": "Starter Deck",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": "Melee Kills heal 2 health",
+            "Effects": {
+                "Qualitative": "Melee Kills heal 2 health"
+            }
+        },
+        {
+            "id": 13,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune ",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "belt_clip.png",
+            "Name": "Belt Clip",
+            "Suppy Line": "Roving Merchants: Liberators",
+            "Supply Track": "Liberators",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +1 Quick Item Inventory, +10% Use Speed",
+            "Effects": {
+                "Use Speed": "0.1",
+                "Quick Item Inventory": "1"
+            }
+        },
+        {
+            "id": 14,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "berserker.png",
+            "Name": "Berserker",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "Melee",
+            "Effect Description ": "Gain 10% Melee Damage. 10% Melee Speed, and 5% Move Speed for each Melee kill in the last 4 Seconds.",
+            "Effects": {
+                "Qualitative": "For every melee kill in the last 4s",
+                "Melee Speed": "0.1",
+                "Melee Damage": "0.1",
+                "Move Speed_1": "0.05"
+            }
+        },
+        {
+            "id": 15,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "body_armor.png",
+            "Name": "Body Armor",
+            "Suppy Line": "Grant's Brew House",
+            "Supply Track": "Clinic",
+            "Position In Track": "3",
+            "Damage Type": "-",
+            "Effect Description ": " +20% Trauma Resistance",
+            "Effects": {
+                "Trauma Resistance": "0.2"
+            }
+        },
+        {
+            "id": 16,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "bomb_squad.png",
+            "Name": "Bomb Squad",
+            "Suppy Line": "The Stilts (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "8",
+            "Damage Type": "Explosive",
+            "Effect Description ": " +100% Explosive Damage, +35% Explosive Resistance",
+            "Effects": {
+                "Explosive Damage": "0.999",
+                "Explosive Resistance": "0.35"
+            }
+        },
+        {
+            "id": 17,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "bounty_hunter.png",
+            "Name": "Bounty Hunter",
+            "Suppy Line": "The Crow's Nest (4)",
+            "Supply Track": "Nest",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": "When you kill a Mutation, gain 10 Copper (Up to 300 per Level).",
+            "Effects": {
+                "Qualitative": "When you kill a Mutation, gain 10 Copper (Up to 300 per Level)."
+            }
+        },
+        {
+            "id": 18,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Fortune ",
+            "Team Effect": "Yes",
+            "Copper Cost": "600",
+            "Image": "box_o_bags.png",
+            "Name": "Box O' Bags",
+            "Suppy Line": "Grant's Brew House (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": " -10% Health, +1 Team Support Inventory",
+            "Effects": {
+                "Health": "-0.1",
+                "Team Support Inventory": "1"
+            }
+        },
+        {
+            "id": 19,
+            "Deck Category": "Campaign ",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "brazen.png",
+            "Name": "Brazen",
+            "Suppy Line": "Bridge Town (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": " +20% Melee Stamina Efficiency, +30% Melee Attack speed, -5% Damage Resistance",
+            "Effects": {
+                "Melee Speed": "0.3",
+                "Damage Resistance": "-0.05",
+                "Melee Stamina Efficiency": "0.2"
+            }
+        },
+        {
+            "id": 20,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "breakout.png",
+            "Name": "Breakout",
+            "Suppy Line": "Knuckle House",
+            "Supply Track": "Nest",
+            "Position In Track": "3",
+            "Damage Type": "-",
+            "Effect Description ": "Breakout: Hold [E/SQUARE/X] to free yourself from Grabs. +50% Breakout Cooldown Reduction (Base 60 seconds). 3 Seconds to release",
+            "Effects": {
+                "Qualitative": "Breakout: Hold [E/SQUARE/X] to free yourself from Grabs. +50% Breakout Cooldown Reduction (Base 60 seconds). 3 Seconds to release"
+            }
+        },
+        {
+            "id": 21,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Image": "broadside.png",
+            "Name": "Broadside",
+            "Suppy Line": "The Furnace (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": "Precision Kills have a 20% chance to cause Ridden to explode, dealing 15 damage to other Ridden with 4 meters.",
+            "Effects": {
+                "Qualitative": "Precision Kills have a 20% chance to cause Ridden to explode, dealing 15 damage to other Ridden with 4 meters."
+            }
+        },
+        {
+            "id": 22,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "buckshot_bruiser.png",
+            "Name": "Buckshot Bruiser",
+            "Suppy Line": "The Furnace ",
+            "Supply Track": "Clinic",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": "When using Shotguns, gain 0.25 Temporary Health for each pellet that hits.",
+            "Effects": {
+                "Qualitative": "When using Shotguns, gain 0.25 Temporary Health for each pellet that hits."
+            }
+        },
+        {
+            "id": 23,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Image": "canned_goods.png",
+            "Name": "Canned Goods",
+            "Suppy Line": "Grant's Brew House (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": " +40 Health, -30% Stamina",
+            "Effects": {
+                "Stamina": "-0.3",
+                "Health": "40"
+            }
+        },
+        {
+            "id": 24,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "charitable_soul.png",
+            "Name": "Charitable Soul",
+            "Suppy Line": "The Clinic (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": "Healing a teammate also applies 50% of the effect to you.",
+            "Effects": {
+                "Qualitative": "Healing a teammate also applies 50% of the effect to you."
+            }
+        },
+        {
+            "id": 25,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Image": "chemical_courage.png",
+            "Name": "Chemical Courage",
+            "Suppy Line": "Paul's Alley (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "7",
+            "Damage Type": "Flat",
+            "Effect Description ": "Pain meds you apply also grant +25% Damage for 60 Seconds.",
+            "Effects": {
+                "Qualitative": "Pain meds you apply also grant +25% Damage for 60 Seconds."
+            }
+        },
+        {
+            "id": 26,
+            "Deck Category": "Campaign",
+            "Type": "Utility ",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "cocky.png",
+            "Name": "Cocky",
+            "Suppy Line": "Knuckle House (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": " +75% Weapon Swap Speed, When you take Damage your Accuracy is reduced by 20% for 3 Seconds.",
+            "Effects": {
+                "Qualitative": "When you take Damage your Accuracy is reduced by 20% for 3 Seconds.",
+                "Weapon Swap Speed": "0.75"
+            }
+        },
+        {
+            "id": 27,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "cold_brew_coffee.png",
+            "Name": "Cold Brew Coffee",
+            "Suppy Line": "Knuckle House (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "9",
+            "Damage Type": "-",
+            "Effect Description ": " +15% Reload Speed, +25% Aim Speed, +25% Weapon Swap Speed, +25% Use Speed",
+            "Effects": {
+                "Reload Speed": "0.15",
+                "Aim Speed": "0.25",
+                "Weapon Swap Speed": "0.25",
+                "Use Speed": "0.25"
+            }
+        },
+        {
+            "id": 28,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Discipline",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "combat_knife.png",
+            "Name": "Combat Knife",
+            "Suppy Line": "Starter Deck",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": "Turns your Bash into a Knife that counts as a Melee weapon.",
+            "Effects": {
+                "Qualitative": "Turns your Bash into a Knife that counts as a Melee weapon."
+            }
+        },
+        {
+            "id": 29,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "combat_medic.png",
+            "Name": "Combat Medic",
+            "Suppy Line": "The Furnace (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": " +50% Use Speed, Heals teammates for an additional 20 when you revive them.",
+            "Effects": {
+                "Qualitative": "Heals teammates for an additional 20 when you revive them.",
+                "Use Speed": "0.5"
+            }
+        },
+        {
+            "id": 30,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "combat_training.png",
+            "Name": "Combat Training",
+            "Suppy Line": "Paul's Alley",
+            "Supply Track": "Alley",
+            "Position In Track": "1",
+            "Damage Type": "Bullet",
+            "Effect Description ": " +5% Bullet Damage, +1 Bullet Stumble Damage, +5 Melee Stumble Damage",
+            "Effects": {
+                "Melee Stumble Damage": "5",
+                "Bullet Stumble Damage": "1",
+                "Bullet Damage": "0.05"
+            }
+        },
+        {
+            "id": 31,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune",
+            "Team Effect": "Yes",
+            "Image": "compound_interest.png",
+            "Name": "Compound Interest",
+            "Suppy Line": "Bridge Town (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": "Each Cleaner gains 5% of thier total Copper in each Saferoom.",
+            "Effects": {
+                "Qualitative": "Each Cleaner gains 5% of thier total Copper in each Saferoom."
+            }
+        },
+        {
+            "id": 32,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No (Yes)",
+            "Copper Cost": "800",
+            "Image": "confident_killer.png",
+            "Name": "Confident Killer",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "Mutation",
+            "Effect Description ": "When you or your team kills a mutation gain 1% damage (up to 15%) until the end of the level. Only Card holder obtains damage increase",
+            "Effects": {
+                "Qualitative": "When you or your team kills a mutation gain 1% damage (up to 15%) until the end of the level. Only Card holder obtains damage increase"
+            }
+        },
+        {
+            "id": 33,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "controlled_movement.png",
+            "Name": "Controlled Movement",
+            "Suppy Line": "Paul's Alley (4)",
+            "Supply Track": "Alley",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": " +40% Movement Speed while aiming down sights with Sniper Rifles.",
+            "Effects": {
+                "Qualitative": " +40% Movement Speed while aiming down sights with Sniper Rifles."
+            }
+        },
+        {
+            "id": 34,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No",
+            "Copper Cost": "N/A",
+            "Image": "copper_scavenger.png",
+            "Name": "Copper Scavenger",
+            "Suppy Line": "Starter Deck",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": "You can sense Nearby Copper, More copper piles spawn",
+            "Effects": {
+                "Qualitative": "You can sense Nearby Copper, More copper piles spawn"
+            }
+        },
+        {
+            "id": 35,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "cross_trainers.png",
+            "Name": "Cross Trainers",
+            "Suppy Line": "The Crow's Nest",
+            "Supply Track": "Nest",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +20% Stamina, +20% Stamina Regen, +3% Move Speed, +5 Health",
+            "Effects": {
+                "Stamina Regen": "0.2",
+                "Stamina": "0.2",
+                "Health": "5",
+                "Move Speed_1": "0.03"
+            }
+        },
+        {
+            "id": 36,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "dash.png",
+            "Name": "Dash",
+            "Suppy Line": "Bridge Town",
+            "Supply Track": "Nest",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": " +5% Move Speed",
+            "Effects": {
+                "Move Speed_1": "0.05"
+            }
+        },
+        {
+            "id": 37,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "defensive_maneuver.png",
+            "Name": "Defensive Maneuver",
+            "Suppy Line": "The Crow's Nest",
+            "Supply Track": "Nest",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": "When you take a hit for 10 or more damage. Gain 25% Damage Resistance for 3 seconds.",
+            "Effects": {
+                "Qualitative": "When you take a hit for 10 or more damage. Gain 25% Damage Resistance for 3 seconds."
+            }
+        },
+        {
+            "id": 38,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "demolitions_expert.png",
+            "Name": "Demolitions Expert",
+            "Suppy Line": "Paul's Alley (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "4",
+            "Damage Type": "Accessory",
+            "Effect Description ": " +50% Accessory Damage, -15% Ammo Capacity ",
+            "Effects": {
+                "Accessory Damage": "0.5",
+                "Ammo Capacity": "-0.15"
+            }
+        },
+        {
+            "id": 39,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "double_grenade_pouch.png",
+            "Name": "Double Grenade Pouch",
+            "Suppy Line": "Paul's Alley (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": " +2 Offensive Inventory, -5% Move Speed",
+            "Effects": {
+                "Melee Speed": "-0.05",
+                "Offensive Inventory": "2"
+            }
+        },
+        {
+            "id": 40,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "down_in_front.png",
+            "Name": "Down in Front!",
+            "Suppy Line": "Paul's Alley (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": "While Crouching you neither take nor deal Friendly Fire damage. +10 Health",
+            "Effects": {
+                "Qualitative": "While Crouching you neither take nor deal Friendly Fire damage",
+                "Health": "10"
+            }
+        },
+        {
+            "id": 41,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "durable.png",
+            "Name": "Durable",
+            "Suppy Line": "The Clinic",
+            "Supply Track": "Clinic",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +15% Trauma Resistance  +5 Health",
+            "Effects": {
+                "Health": "5",
+                "Trauma Resistance": "0.15"
+            }
+        },
+        {
+            "id": 42,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "emt_bag.png",
+            "Name": "EMT Bag",
+            "Suppy Line": "The Clinic",
+            "Supply Track": "Clinic",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +50% Healing Efficiency",
+            "Effects": {
+                "Healing Efficiency": "0.5"
+            }
+        },
+        {
+            "id": 43,
+            "Deck Category": "Campaign",
+            "Type": "Mobility ",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "energy_bar.png",
+            "Name": "Energy Bar",
+            "Suppy Line": "Bridge Town",
+            "Supply Track": "Nest",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": " +30% Stamina Regeneration, +5 Health",
+            "Effects": {
+                "Stamina Regen": "0.3",
+                "Health": "5"
+            }
+        },
+        {
+            "id": 44,
+            "Deck Category": "Campaign",
+            "Type": "Mobility ",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Image": "energy_drink.png",
+            "Name": "Energy Drink",
+            "Suppy Line": "The Crow's Nest (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": " +15% Stamina, +25% Weapon Swap Speed, +15% Move Speed while firing, +10% Slow Resistance",
+            "Effects": {
+                "Weapon Swap Speed": "0.25",
+                "Stamina": "0.15",
+                "Move Speed While Firing": "0.15",
+                "Slow Resistance": "0.1"
+            }
+        },
+        {
+            "id": 45,
+            "Deck Category": "Campaign",
+            "Type": "Defense ",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "experienced_emt.png",
+            "Name": "Experienced EMT",
+            "Suppy Line": "The Clinic (4)",
+            "Supply Track": "Clinic",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": "When you use a Medical Accessory, the target gains +10% Maximum Health, Stamina, and Stamina Regen until the end of the level.",
+            "Effects": {
+                "Qualitative": "When you use a Medical Accessory, the target gains +10% Maximum Health, Stamina, and Stamina Regen until the end of the level.",
+                "Stamina Regen": "0.1",
+                "Stamina": "0.1",
+                "Health": "0.1"
+            }
+        },
+        {
+            "id": 46,
+            "Deck Category": "Campaign",
+            "Type": "Defense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "500",
+            "Image": "face_your_fears.png",
+            "Name": "Face Your Fears",
+            "Suppy Line": "The Stilts (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": "Gain 2 Temporary Health whenever you kill a Ridden within 2.5 meters.",
+            "Effects": {
+                "Qualitative": "Gain 2 Temporary Health whenever you kill a Ridden within 2.5 meters."
+            }
+        },
+        {
+            "id": 47,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Fortune ",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "fanny_pack.png",
+            "Name": "Fanny Pack",
+            "Suppy Line": "The Furnace ",
+            "Supply Track": "Clinic",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": " +1 Support Inventory, +15% Trauma Resistance",
+            "Effects": {
+                "Trauma Resistance": "0.15",
+                "Support Inventory": "1"
+            }
+        },
+        {
+            "id": 48,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "field_surgeon.png",
+            "Name": "Field Surgeon",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": "When you use a Medical Accessory, it also restores 3 Trauma to the target.",
+            "Effects": {
+                "Qualitative": "When you use a Medical Accessory, it also restores 3 Trauma to the target."
+            }
+        },
+        {
+            "id": 49,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "fire_in_the_hole.png",
+            "Name": "Fire in the Hole!",
+            "Suppy Line": "Bridge Town (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": "When you throw an Offensive Accessory, Gain 20 Temporary Health and 20% Move speed for 5 Seconds.",
+            "Effects": {
+                "Qualitative": "When you throw an Offensive Accessory, Gain 20 Temporary Health and 20% Move speed for 5 Seconds."
+            }
+        },
+        {
+            "id": 50,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "fleet_of_foot.png",
+            "Name": "Fleet of Foot",
+            "Suppy Line": "Knuckle House",
+            "Supply Track": "Nest",
+            "Position In Track": "3",
+            "Damage Type": "-",
+            "Effect Description ": " +8% Move Speed, -7% Damage Resistance",
+            "Effects": {
+                "Move Speed": "0.08",
+                "Damage Resistance": "-0.07"
+            }
+        },
+        {
+            "id": 51,
+            "Deck Category": "Campaign",
+            "Type": "Defense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "fresh_bandage.png",
+            "Name": "Fresh Bandage",
+            "Suppy Line": "Grant's Brew House",
+            "Supply Track": "Clinic",
+            "Position In Track": "3",
+            "Damage Type": "-",
+            "Effect Description ": "At the start of each level, heal 15 Trauma Damage, the restore any missing Health.",
+            "Effects": {
+                "Qualitative": "At the start of each level, heal 15 Trauma Damage, the restore any missing Health."
+            }
+        },
+        {
+            "id": 52,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "front_sight_focus.png",
+            "Name": "Front Sight Focus",
+            "Suppy Line": "Paul's Alley",
+            "Supply Track": "Alley",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +20% Accuracy, +10% Weakspot Damage, +15% Aim Speed",
+            "Effects": {
+                "Aim Speed": "0.15",
+                "Weakspot Damage": "0.1"
+            }
+        },
+        {
+            "id": 53,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Image": "glass_cannon.png",
+            "Name": "Glass Cannon",
+            "Suppy Line": "Paul's Alley (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "7",
+            "Damage Type": "Flat",
+            "Effect Description ": " +25% Damage, -30 Health ",
+            "Effects": {
+                "Damage": "0.25",
+                "Health": "-30"
+            }
+        },
+        {
+            "id": 54,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No",
+            "Copper Cost": "250",
+            "Image": "grenade_pouch.png",
+            "Name": "Grenade Pouch",
+            "Suppy Line": "Paul's Alley",
+            "Supply Track": "Alley",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +1 Offensive Inventory, +25% Swap Speed",
+            "Effects": {
+                "Weapon Swap Speed": "0.25",
+                "Offensive Inventory": "1"
+            }
+        },
+        {
+            "id": 55,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "grenade_training.png",
+            "Name": "Grenade Training",
+            "Suppy Line": "Fort Hope",
+            "Supply Track": "Alley",
+            "Position In Track": "3",
+            "Damage Type": "Accessory",
+            "Effect Description ": " +25% Accessory Damage",
+            "Effects": {
+                "Accessory Damage": "0.25"
+            }
+        },
+        {
+            "id": 56,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "group_therapy.png",
+            "Name": "Group Therapy",
+            "Suppy Line": "The Clinic (3)",
+            "Supply Track": "Clinic",
+            "Position In Track": "7",
+            "Damage Type": "-",
+            "Effect Description ": "When you use a Medical Accessory, all teammates heal for 8 Health.",
+            "Effects": {
+                "Qualitative": "When you use a Medical Accessory, all teammates heal for 8 Health."
+            }
+        },
+        {
+            "id": 57,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "guns_out.png",
+            "Name": "Guns Out",
+            "Suppy Line": "The Crow's Nest (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": " +50% Weapon Swap Speed, -5% Damage Resistance ",
+            "Effects": {
+                "Weapon Swap Speed": "0.5",
+                "Damage Resistance": "-0.05"
+            }
+        },
+        {
+            "id": 58,
+            "Deck Category": "Campaign",
+            "Type": "Utility ",
+            "Card Affinity": "Fortune ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "hazard_pay.png",
+            "Name": "Hazard Pay",
+            "Suppy Line": "Bridge Town (5)",
+            "Supply Track": "Nest",
+            "Position In Track": "13",
+            "Damage Type": "-",
+            "Effect Description ": "Gain 250 Bonus Copper at the start of Each level.",
+            "Effects": {
+                "Qualitative": "Gain 250 Bonus Copper at the start of Each level."
+            }
+        },
+        {
+            "id": 59,
+            "Deck Category": "Campaign",
+            "Type": "Utility ",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "headband_magnifier.png",
+            "Name": "Headband Magnifier",
+            "Suppy Line": "Bridge Town (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": " +125% Use Speed. When you take Damage, you have a chance to be Blinded for 1 Second.",
+            "Effects": {
+                "Qualitative": "When you take Damage, you have a chance to be Blinded for 1 Second.",
+                "Use Speed": "1.25"
+            }
+        },
+        {
+            "id": 60,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "heavy_attack.png",
+            "Name": "Heavy Attack",
+            "Suppy Line": "The Strip",
+            "Supply Track": "The Strip",
+            "Position In Track": "0",
+            "Damage Type": "Melee",
+            "Effect Description ": "Charge: Hold [LEFTCLICK/R2/RT] with Melee weapon to burst forward. Charge attacks deal 100% increased damage",
+            "Effects": {
+                "Qualitative": "Charge: Hold [LEFTCLICK/R2/RT] with Melee weapon to burst forward. Charge attacks deal 100% increased damage"
+            }
+        },
+        {
+            "id": 61,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "heavy_hitter.png",
+            "Name": "Heavy Hitter",
+            "Suppy Line": "The Furnace (3)",
+            "Supply Track": "Clinic",
+            "Position In Track": "8",
+            "Damage Type": "Stumble",
+            "Effect Description ": "Melee hits against Weakspots deal +20 Additional Stumble Damage",
+            "Effects": {
+                "Qualitative": "Melee hits against Weakspots deal +20 Additional Stumble Damage"
+            }
+        },
+        {
+            "id": 62,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "hellfire.png",
+            "Name": "Hellfire",
+            "Suppy Line": "Bridge Town (4)",
+            "Supply Track": "Nest",
+            "Position In Track": "11",
+            "Damage Type": "-",
+            "Effect Description ": " +45% Movement Speed while firing. +3% Move Speed while not firing.",
+            "Effects": {
+                "Move Speed While Firing": "0.45",
+                "Move Speed While not Firing": "0.03"
+            }
+        },
+        {
+            "id": 63,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "hi_vis_sights.png",
+            "Name": "Hi Vis Sights",
+            "Suppy Line": "Paul's Alley",
+            "Supply Track": "Alley",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +30% Aim Speed",
+            "Effects": {
+                "Aim Speed": "0.3"
+            }
+        },
+        {
+            "id": 64,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "highwayman.png",
+            "Name": "Highwayman",
+            "Suppy Line": "The Stilts (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": "Kills with Secondary guns have a 3% chance to spawn ammo or a Molotov.",
+            "Effects": {
+                "Qualitative": "Kills with Secondary guns have a 3% chance to spawn ammo or a Molotov."
+            }
+        },
+        {
+            "id": 65,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "hunker_down.png",
+            "Name": "Hunker Down",
+            "Suppy Line": "Paul's Alley (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "7",
+            "Damage Type": "-",
+            "Effect Description ": "While Crouching, gain 10% Damage Resistance and 40% Accuracy",
+            "Effects": {
+                "Qualitative": "While Crouching",
+                "Accuracy": "0.4",
+                "Damage Resistance": "0.1"
+            }
+        },
+        {
+            "id": 66,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "hydration_pack.png",
+            "Name": "Hydration Pack",
+            "Suppy Line": "The Furnace ",
+            "Supply Track": "Clinic",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": " +25 Health, -15% Ammo Capacity",
+            "Effects": {
+                "Health": "25",
+                "Ammo Capacity": "-0.15"
+            }
+        },
+        {
+            "id": 67,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "hyper-focused.png",
+            "Name": "Hyper-Focused",
+            "Suppy Line": "Knuckle House (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "9",
+            "Damage Type": "Weakpoint",
+            "Effect Description ": " +50% Weakspot Damage, -40% Move Speed while shooting or melee attacking.",
+            "Effects": {
+                "Weakspot Damage": "0.5",
+                "Move Speed While Firing or Melee attacking": "-0.4"
+            }
+        },
+        {
+            "id": 68,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "ignore_the_pain.png",
+            "Name": "Ignore the Pain",
+            "Suppy Line": "The Stilts (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "8",
+            "Damage Type": "Ignore the Pain",
+            "Effect Description ": " +20% Melee Damage against Mutations. When you deal Melee damage to a Mutation heal 1 Health and recover 3 Stamina.",
+            "Effects": {
+                "Qualitative": " +20% Melee Damage against Mutations. When you deal Melee damage to a Mutation heal 1 Health and recover 3 Stamina."
+            }
+        },
+        {
+            "id": 69,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "improvised_explosives.png",
+            "Name": "Improvised Explosives",
+            "Suppy Line": "Fort Hope (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "9",
+            "Damage Type": "Accessory",
+            "Effect Description ": " +75% Accessory Damage, -25% Swap Speed",
+            "Effects": {
+                "Weapon Swap Speed": "-0.25",
+                "Accessory Damage": "0.75"
+            }
+        },
+        {
+            "id": 70,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "in_the_zone.png",
+            "Name": "In the Zone",
+            "Suppy Line": "Paul's Alley (4)",
+            "Supply Track": "Alley",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": "Precision Kills grant 5% Reload Speed for 5 Seconds (stacking up to 10 times).",
+            "Effects": {
+                "Qualitative": "Precision Kills have a 20% chance to cause Ridden to explode, dealing 15 damage to other Ridden with 4 meters."
+            }
+        },
+        {
+            "id": 71,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline",
+            "Team Effect": "Yes",
+            "Copper Cost": "800",
+            "Image": "inspiring_sacrifice.png",
+            "Name": "Inspiring Sacrifice",
+            "Suppy Line": "The Clinic",
+            "Supply Track": "Clinic",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": "When you or a teammate becomes incapacitated, All teammates heal for 20 Health over 15 Seconds.",
+            "Effects": {
+                "Qualitative": "When you or a teammate becomes incapacitated, All teammates heal for 20 Health over 15 Seconds."
+            }
+        },
+        {
+            "id": 72,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "killer's_instinct.png",
+            "Name": "Killer's Instinct",
+            "Suppy Line": "Fort Hope (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "9",
+            "Damage Type": "Weakpoint",
+            "Effect Description ": " +30% Weakspot Damage. DISABLES: Aim Down Sights",
+            "Effects": {
+                "Weakspot Damage": "0.3",
+                "No ADS": "1"
+            }
+        },
+        {
+            "id": 73,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "knowledge_is_power.png",
+            "Name": "Knowledge is Power",
+            "Suppy Line": "Knuckle House (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "9",
+            "Damage Type": "Weakpoint",
+            "Effect Description ": " +10% Weakspot Damage, Allows Player to see values for damage they deal and enemy health bars.",
+            "Effects": {
+                "Qualitative": "Allows Player to see values for damage they deal and enemy health bars.",
+                "Weakspot Damage": "0.1"
+            }
+        },
+        {
+            "id": 74,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "large_caliber_rounds.png",
+            "Name": "Large Caliber Rounds",
+            "Suppy Line": "The Stilts",
+            "Supply Track": "Alley",
+            "Position In Track": "2",
+            "Damage Type": "Bullet",
+            "Effect Description ": " +7.5% Bullet Damage, +200% Bullet Penetration",
+            "Effects": {
+                "Damage": "0.075",
+                "Bullet Penetration": "2"
+            }
+        },
+        {
+            "id": 75,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Fortune",
+            "Team Effect": "Yes",
+            "Copper Cost": "600",
+            "Image": "life_insurance.png",
+            "Name": "Life Insurance",
+            "Suppy Line": "The Clinic (3)",
+            "Supply Track": "Clinic",
+            "Position In Track": "7",
+            "Damage Type": "-",
+            "Effect Description ": " +1 Extra Life, +15% Reduced Incap Trauma",
+            "Effects": {
+                "Qualitative": "+15% Reduced Incap Trauma",
+                "Extra Life": "1"
+            }
+        },
+        {
+            "id": 76,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "line_em_up.png",
+            "Name": "Line 'em Up",
+            "Suppy Line": "Grant's Brew House (3)",
+            "Supply Track": "Clinic",
+            "Position In Track": "9",
+            "Damage Type": "-",
+            "Effect Description ": " +10% Effective Bullet Range, +15% Recoil Control, +25% Bullet Penetration, +25% Aim Speed",
+            "Effects": {
+                "Aim Speed": "0.25",
+                "Bullet Penetration": "0.25",
+                "Effective Bullet Range": "0.1",
+                "Recoil Control": "0.15"
+            }
+        },
+        {
+            "id": 77,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune ",
+            "Team Effect": "No",
+            "Image": "lucky_pennies.png",
+            "Name": "Lucky Pennies",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": "Whenever your team loots Copper, you have a 35% chance to find 35% additional Copper",
+            "Effects": {
+                "Qualitative": "Whenever your team loots Copper, you have a 35% chance to find 35% additional Copper"
+            }
+        },
+        {
+            "id": 78,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "mad_dash.png",
+            "Name": "Mad Dash",
+            "Suppy Line": "The Crow's Nest (5)",
+            "Supply Track": "Nest",
+            "Position In Track": "12",
+            "Damage Type": "-",
+            "Effect Description ": " +20% Sprint Speed, -40% Sprint Stamina Efficiency",
+            "Effects": {
+                "Sprint Stamina Effeciency": "-0.4",
+                "Sprint Speed": "0.2"
+            }
+        },
+        {
+            "id": 79,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "mag_carrier.png",
+            "Name": "Mag Carrier",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "Weapon",
+            "Effect Description ": " +30% Pistol/SMG Ammo Capacity, +10% Damage with Pistols and SMGs",
+            "Effects": {
+                "Pistol/SMG Ammo Cap": "0.3",
+                "Pistol/SMG Damage": "0.1"
+            }
+        },
+        {
+            "id": 80,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "mag_coupler.png",
+            "Name": "Mag Coupler",
+            "Suppy Line": "Paul's Alley (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": " +50% Reload Speed, DISABLES: Aim Down Sights",
+            "Effects": {
+                "Reload Speed": "0.5",
+                "No ADS": "1"
+            }
+        },
+        {
+            "id": 81,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "Yes",
+            "Copper Cost": "800",
+            "Image": "mandatory_pt.png",
+            "Name": "Mandatory PT",
+            "Suppy Line": "Knuckle House (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": " +10% Team Stamina, +10% Team Stamina Regen",
+            "Effects": {
+                "Team Stamina Regen": "0.1",
+                "Team Stamina": "0.1"
+            }
+        },
+        {
+            "id": 82,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "marathon_runner.png",
+            "Name": "Marathon Runner",
+            "Suppy Line": "The Crow's Nest (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": "No Movement Penalty for Strafe or Backpedal",
+            "Effects": {
+                "Qualitative": "No Movement Penalty for Strafe or Backpedal"
+            }
+        },
+        {
+            "id": 83,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "marked_for_death.png",
+            "Name": "Marked for Death",
+            "Suppy Line": "Paul's Alley (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "7",
+            "Damage Type": "Marked for Death",
+            "Effect Description ": "Mutations you Ping are highlighted and your team deals 10% increased damage to highlighted enemies.",
+            "Effects": {
+                "Qualitative": "Mutations you Ping are highlighted and your team deals 10% increased damage to highlighted enemies."
+            }
+        },
+        {
+            "id": 84,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "mean_drunk.png",
+            "Name": "Mean Drunk",
+            "Suppy Line": "Knuckle House (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "6",
+            "Damage Type": "Melee",
+            "Effect Description ": " +60% Melee Damage. Your Melee Attacks cause cleave through enemies dealing damage in a large area. DISABLES: Sprint",
+            "Effects": {
+                "Qualitative": "Your Melee Attacks cause cleave through enemies dealing damage in a large area. DISABLES: Sprint",
+                "Melee Damage": "0.6",
+                "No Sprint": "1"
+            }
+        },
+        {
+            "id": 85,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "meatgrinder.png",
+            "Name": "Meat Grinder",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": "Gain 30% Move Speed and Accuracy while crouched and using an LMG.",
+            "Effects": {
+                "Qualitative": "Gain 30% Move Speed and Accuracy while crouched and using an LMG."
+            }
+        },
+        {
+            "id": 86,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "Yes",
+            "Copper Cost": "800",
+            "Image": "medical_expert.png",
+            "Name": "Medical Expert",
+            "Suppy Line": "The Clinic (4)",
+            "Supply Track": "Clinic",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": " +50% Revive Speed. When you use a Medical Accessory, it also restores 1 Trauma to the target.",
+            "Effects": {
+                "Qualitative": " +50% Revive Speed. When you use a Medical Accessory, it also restores 1 Trauma to the target.",
+                "Revive Speed": "0.5"
+            }
+        },
+        {
+            "id": 87,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "medical_professional.png",
+            "Name": "Medical Professional",
+            "Suppy Line": "The Clinic (4)",
+            "Supply Track": "Clinic",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": "First Aid and Defibrillators also recover 15 Trauma Damage and 1 Extra Life",
+            "Effects": {
+                "Qualitative": "First Aid and Defibrillators also recover 15 Trauma Damage and 1 Extra Life"
+            }
+        },
+        {
+            "id": 88,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "meth_head.png",
+            "Name": "Meth Head",
+            "Suppy Line": "The Crow's Nest (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "7",
+            "Damage Type": "-",
+            "Effect Description ": " +40% Melee Attack Speed, +30% Melee Attack Efficiency, Your Melee Attacks no longer stick in tough enemies. DISABLES: Aim Down Sights",
+            "Effects": {
+                "Qualitative": "Your Melee Attacks no longer stick in tough enemies",
+                "Melee Speed": "0.4",
+                "Melee Stamina Efficiency": "0.3",
+                "No ADS": "1"
+            }
+        },
+        {
+            "id": 89,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "miraculous_recovery.png",
+            "Name": "Miraculous Recovery",
+            "Suppy Line": "The Clinic (4)",
+            "Supply Track": "Clinic",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": "When you use a Medical Accessory, it has a 25% chance to have 100% increased effect.",
+            "Effects": {
+                "Qualitative": "When you use a Medical Accessory, it has a 25% chance to have 100% increased effect."
+            }
+        },
+        {
+            "id": 90,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "money_grubbers.png",
+            "Name": "Money Grubbers",
+            "Suppy Line": "The Stilts (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": "Each time your team loots Copper, you can gain 3 additional Copper, stacking up to 75 additional Copper",
+            "Effects": {
+                "Qualitative": "Each time your team loots Copper, you can gain 3 additional Copper, stacking up to 75 additional Copper"
+            }
+        },
+        {
+            "id": 91,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "750",
+            "Image": "motorcycle_helmet.png",
+            "Name": "Motorcycle Helmet",
+            "Suppy Line": "The Furnace (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": " +15% Damage Resistance, +10 Health, DISABLES: Aim Down Sights",
+            "Effects": {
+                "Health": "10",
+                "Damage Resistance": "0.15",
+                "No ADS": "1"
+            }
+        },
+        {
+            "id": 92,
+            "Deck Category": "Campaign",
+            "Type": "Defense ",
+            "Card Affinity": "Discipline",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "motorcycle_jacket.png",
+            "Name": "Motorcycle Jacket",
+            "Suppy Line": "The Clinic",
+            "Supply Track": "Clinic",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +5% Damage Resistance, +5 Health",
+            "Effects": {
+                "Health": "5",
+                "Damage Resistance": "0.05"
+            }
+        },
+        {
+            "id": 93,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "mugger.png",
+            "Name": "Mugger",
+            "Suppy Line": "Knuckle House (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": "Kills with Melee weapons have a 3% chance to spawn ammo or Razor Wire.",
+            "Effects": {
+                "Qualitative": "Kills with Melee weapons have a 3% chance to spawn ammo or Razor Wire."
+            }
+        },
+        {
+            "id": 94,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "multitool.png",
+            "Name": "Multitool",
+            "Suppy Line": "Knuckle House (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": " +75% Use Speed, -5% Damage Resistance",
+            "Effects": {
+                "Use Speed": "0.75",
+                "Damage Resistance": "-0.05"
+            }
+        },
+        {
+            "id": 95,
+            "Deck Category": "Campaign",
+            "Type": "Mobility ",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "750",
+            "Image": "natural_sprinter.png",
+            "Name": "Natural Sprinter",
+            "Suppy Line": "The Crow's Nest (4)",
+            "Supply Track": "Nest",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": " +100% Stamina Regeneration, -50% Maximum Stamina",
+            "Effects": {
+                "Stamina Regen": "0.999",
+                "Stamina": "-0.5"
+            }
+        },
+        {
+            "id": 96,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "Yes",
+            "Copper Cost": "800",
+            "Image": "needs_of_the_many.png",
+            "Name": "Needs of the Many",
+            "Suppy Line": "The Stilts (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": " -10% Health, +1 Team Extra Life",
+            "Effects": {
+                "Health": "-0.1",
+                "Team Extra Life": "1"
+            }
+        },
+        {
+            "id": 97,
+            "Deck Category": "Campaign",
+            "Type": "Defense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "numb.png",
+            "Name": "Numb",
+            "Suppy Line": "The Clinic (3)",
+            "Supply Track": "Clinic",
+            "Position In Track": "7",
+            "Damage Type": "-",
+            "Effect Description ": "Gain +15% Damage Resistance while you have Temporary Health",
+            "Effects": {
+                "Qualitative": "While you have Temporary Health",
+                "Damage Resistance": "0.15"
+            }
+        },
+        {
+            "id": 98,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "N/A",
+            "Image": "offensive_scavenger.png",
+            "Name": "Offensive Scavenger",
+            "Suppy Line": "The Stilts",
+            "Supply Track": "Alley",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": "You can sense nearby Offensive Accessories. More Offensive Accessories spawn.",
+            "Effects": {
+                "Qualitative": "You can sense nearby Offensive Accessories. More Offensive Accessories spawn."
+            }
+        },
+        {
+            "id": 99,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "olympic_sprinter.png",
+            "Name": "Olympic Sprinter",
+            "Suppy Line": "Bridge Town (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": " +30% Sprint Efficiency, -7% Damage Resistance",
+            "Effects": {
+                "Sprint Stamina Effeciency": "0.3",
+                "Damage Resistance": "-0.07"
+            }
+        },
+        {
+            "id": 100,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "Yes",
+            "Copper Cost": "275",
+            "Image": "on_your_mark.png",
+            "Name": "On your Mark...",
+            "Suppy Line": "Bridge Town (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": "When a horde is triggered, your team restores 15% Ammo and gains 10% Move Speed while firing, 25% Reload Speed, and 25% Swap Speed for 30 seconds.",
+            "Effects": {
+                "Qualitative": "When a horde is triggered, your team restores 15% Ammo and gains 10% Move Speed while firing, 25% Reload Speed, and 25% Swap Speed for 30 seconds."
+            }
+        },
+        {
+            "id": 101,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "optics_enthusiast.png",
+            "Name": "Optics Enthusiast",
+            "Suppy Line": "Fort Hope",
+            "Supply Track": "Alley",
+            "Position In Track": "3",
+            "Damage Type": "-",
+            "Effect Description ": " +30% Accuracy",
+            "Effects": {
+                "Accuracy": "0.3"
+            }
+        },
+        {
+            "id": 102,
+            "Deck Category": "Campaign",
+            "Type": "Defense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "overwatch.png",
+            "Name": "Overwatch",
+            "Suppy Line": "The Furnace (3)",
+            "Supply Track": "Clinic",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": "Kills from greater than 15 meters grant 5 Temporary Health to teammates within 15 meters of the target.",
+            "Effects": {
+                "Qualitative": "Kills from greater than 15 meters grant 5 Temporary Health to teammates within 15 meters of the target."
+            }
+        },
+        {
+            "id": 103,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "padded_suit.png",
+            "Name": "Padded Suit",
+            "Suppy Line": "The Furnace ",
+            "Supply Track": "Clinic",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": " +10% Damage Resistance, +5 Health, -20% Stamina Efficiency",
+            "Effects": {
+                "Stamina Efficiency": "-0.2",
+                "Health": "5",
+                "Damage Resistance": "0.1"
+            }
+        },
+        {
+            "id": 104,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "patient_hunter.png",
+            "Name": "Patient Hunter",
+            "Suppy Line": "Fort Hope",
+            "Supply Track": "Alley",
+            "Position In Track": "3",
+            "Damage Type": "ADS",
+            "Effect Description ": "Every 0.75 seconds you Aim Down Sights increases your Damage by 10% (up to 3 stacks).",
+            "Effects": {
+                "Qualitative": "Every 0.75 seconds you Aim Down Sights increases your Damage by 10% (up to 3 stacks).",
+                "Damage": "0.3"
+            }
+        },
+        {
+            "id": 105,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "pep_in_your_step.png",
+            "Name": "Pep in your Step",
+            "Suppy Line": "Knuckle House",
+            "Supply Track": "Nest",
+            "Position In Track": "3",
+            "Damage Type": "-",
+            "Effect Description ": "Precision Kills grant you 8% Movement Speed for 5 Seconds.",
+            "Effects": {
+                "Qualitative": "Precision Kills grant you 8% Movement Speed for 5 Seconds.",
+                "Move Speed_1": "0.25"
+            }
+        },
+        {
+            "id": 106,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "pep_talk.png",
+            "Name": "Pep Talk",
+            "Suppy Line": "The Clinic (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": "While reviving teammates, take 3 less damage from all Ridden. Heals teammates for an additional 10 Health when you revive them.",
+            "Effects": {
+                "Qualitative": "While reviving teammates, take 3 less damage from all Ridden. Heals teammates for an additional 10 Health when you revive them."
+            }
+        },
+        {
+            "id": 107,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline",
+            "Team Effect": "No",
+            "Image": "poultice.png",
+            "Name": "Poultice",
+            "Suppy Line": "The Clinic",
+            "Supply Track": "Clinic",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": "When you use a medical accessory, the target heals for an additional 20 Health over 30 Seconds.",
+            "Effects": {
+                "Qualitative": "When you use a medical accessory, the target heals for an additional 20 Health over 30 Seconds."
+            }
+        },
+        {
+            "id": 108,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "power_reload.png",
+            "Name": "Power Reload",
+            "Suppy Line": "Paul's Alley (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "7",
+            "Damage Type": "-",
+            "Effect Description ": "Reloading a gun within 1 Second of reaching low ammo will increase its magazine size by 30% until the next reload.",
+            "Effects": {
+                "Qualitative": "Reloading a gun within 1 Second of reaching low ammo will increase its magazine size by 30% until the next reload."
+            }
+        },
+        {
+            "id": 109,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "power_swap.png",
+            "Name": "Power Swap",
+            "Suppy Line": "Bridge Town (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "8",
+            "Damage Type": "Bullet / Melee",
+            "Effect Description ": "Changing Weapons within 1 Second of reaching low ammo grants +20% Damage for 5 Seconds.",
+            "Effects": {
+                "Qualitative": "Changing Weapons within 1 Second of reaching low ammo grants +20% Damage for 5 Seconds."
+            }
+        },
+        {
+            "id": 110,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "pyro.png",
+            "Name": "Pyro",
+            "Suppy Line": "The Furnace (3)",
+            "Supply Track": "Clinic",
+            "Position In Track": "8",
+            "Damage Type": "Fire",
+            "Effect Description ": " +100% Fire Damage, Kills with fire grant you 3 Temporary Health. You can sense flammable objects nearby.",
+            "Effects": {
+                "Qualitative": " +100% Fire Damage, Kills with fire grant you 3 Temporary Health. You can sense flammable objects nearby."
+            }
+        },
+        {
+            "id": 111,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Image": "quick_kill.png",
+            "Name": "Quick Kill",
+            "Suppy Line": "Fort Hope (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": " +50% Accuracy, DISABLES: Aim Down Sights",
+            "Effects": {
+                "Accuracy": "0.5",
+                "No ADS": "1"
+            }
+        },
+        {
+            "id": 112,
+            "Deck Category": "Campaign",
+            "Type": "Mobility ",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "reckless.png",
+            "Name": "Reckless",
+            "Suppy Line": "Bridge Town (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": " +40% Sprint Efficiency, When you take Damage while Sprinting you lose all Stamina.",
+            "Effects": {
+                "Qualitative": " +40% Sprint Efficiency, When you take Damage while Sprinting you lose all Stamina.",
+                "Sprint Stamina Effeciency": "0.4"
+            }
+        },
+        {
+            "id": 113,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "reckless_strategy.png",
+            "Name": "Reckless Strategy",
+            "Suppy Line": "Knuckle House",
+            "Supply Track": "Nest",
+            "Position In Track": "3",
+            "Damage Type": "Weakpoint",
+            "Effect Description ": " +30% Weakspot Damage, -5% Damage Resistance",
+            "Effects": {
+                "Weakspot Damage": "0.3",
+                "Damage Resistance": "-0.5"
+            }
+        },
+        {
+            "id": 114,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "reload_drills.png",
+            "Name": "Reload Drills",
+            "Suppy Line": "Starter Deck",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": " +20% Reload Speed",
+            "Effects": {
+                "Reload Speed": "0.2"
+            }
+        },
+        {
+            "id": 115,
+            "Deck Category": "Campaign",
+            "Type": "Mobility ",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Image": "rhythmic_breathing.png",
+            "Name": "Rhythmic Breathing",
+            "Suppy Line": "Bridge Town (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": " +40% Stamina",
+            "Effects": {
+                "Stamina": "0.4"
+            }
+        },
+        {
+            "id": 116,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "ridden_slayer.png",
+            "Name": "Ridden Slayer",
+            "Suppy Line": "The Crow's Nest",
+            "Supply Track": "Nest",
+            "Position In Track": "1",
+            "Damage Type": "Weakpoint",
+            "Effect Description ": " +20% Weakspot Damage",
+            "Effects": {
+                "Weakspot Damage": "0.2"
+            }
+        },
+        {
+            "id": 117,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "rolling_thunder.png",
+            "Name": "Rolling Thunder",
+            "Suppy Line": "Knuckle House",
+            "Supply Track": "Nest",
+            "Position In Track": "3",
+            "Damage Type": "Weapon",
+            "Effect Description ": " +35% Movement Speed while firing with Shotguns, +10% Damage with shotguns.",
+            "Effects": {
+                "Qualitative": " +35% Movement Speed while firing with Shotguns, +10% Damage with shotguns."
+            }
+        },
+        {
+            "id": 118,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "rousing_speech.png",
+            "Name": "Rousing Speech",
+            "Suppy Line": "Grant's Brew House (3)",
+            "Supply Track": "Clinic",
+            "Position In Track": "9",
+            "Damage Type": "-",
+            "Effect Description ": " +225% Revive Speed, +20% Reduced Incap Trauma. DISABLES: Offensive Accessories",
+            "Effects": {
+                "Qualitative": " +225% Revive Speed, +20% Reduced Incap Trauma. DISABLES: Offensive Accessories",
+                "Revive Speed": "2.25",
+                "No Offensive Accessories": "1"
+            }
+        },
+        {
+            "id": 119,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Fortune ",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "run_and_gun.png",
+            "Name": "Run and Gun",
+            "Suppy Line": "The Crow's Nest",
+            "Supply Track": "Nest",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": "You can sprint while shooting",
+            "Effects": {
+                "Qualitative": "You can sprint while shooting"
+            }
+        },
+        {
+            "id": 120,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "run_like_hell.png",
+            "Name": "Run like Hell",
+            "Suppy Line": "Bridge Town (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": " +12% Move Speed, When you take Damage, your move speed reduced by 12% for 3 Seconds.",
+            "Effects": {
+                "Qualitative": " +12% Move Speed, When you take Damage, your move speed reduced by 12% for 3 Seconds.",
+                "Move Speed_1": "0.12"
+            }
+        },
+        {
+            "id": 121,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "sadistic.png",
+            "Name": "Sadistic",
+            "Suppy Line": "Bridge Town (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "5",
+            "Damage Type": "Weakpoint",
+            "Effect Description ": "Gain 5% Weakspot Damage for Each Precision Kill in the last 10 Seconds.",
+            "Effects": {
+                "Qualitative": "Gain 5% Weakspot Damage for Each Precision Kill in the last 10 Seconds."
+            }
+        },
+        {
+            "id": 122,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No (Yes)",
+            "Copper Cost": "600",
+            "Image": "saferoom_recovery.png",
+            "Name": "Saferoom Recovery",
+            "Suppy Line": "The Clinic (4)",
+            "Supply Track": "Clinic",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": "Your team heals 15Health, 7 Trauma Damage and refills 10% Ammo at the start of each level.",
+            "Effects": {
+                "Qualitative": "Your team heals 15Health, 7 Trauma Damage and refills 10% Ammo at the start of each level."
+            }
+        },
+        {
+            "id": 123,
+            "Deck Category": "Campaign",
+            "Type": "Defense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "scar_tissue.png",
+            "Name": "Scar Tissue",
+            "Suppy Line": "Grant's Brew House",
+            "Supply Track": "Clinic",
+            "Position In Track": "3",
+            "Damage Type": "-",
+            "Effect Description ": "Take 1 less damage from all Ridden.",
+            "Effects": {
+                "Qualitative": "Take 1 less damage from all Ridden."
+            }
+        },
+        {
+            "id": 124,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "scattergun_skills.png",
+            "Name": "Scattergun Skills",
+            "Suppy Line": "Paul's Alley (4)",
+            "Supply Track": "Alley",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": " +40% Reload Speed with Shotguns.",
+            "Effects": {
+                "Qualitative": " +40% Reload Speed with Shotguns."
+            }
+        },
+        {
+            "id": 125,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "screwdriver.png",
+            "Name": "Screwdriver",
+            "Suppy Line": "Bridge Town",
+            "Supply Track": "Nest",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": " +50% Use Speed, +10% Stamina",
+            "Effects": {
+                "Use Speed": "0.5",
+                "Stamina": "0.1"
+            }
+        },
+        {
+            "id": 126,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "second_chance.png",
+            "Name": "Second Chance",
+            "Suppy Line": "Starter Deck",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": " +1 Extra Life, +5 Health",
+            "Effects": {
+                "Health": "5",
+                "Extra Life": "1"
+            }
+        },
+        {
+            "id": 127,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune",
+            "Team Effect": "Yes",
+            "Copper Cost": "800",
+            "Image": "share_the_wealth.png",
+            "Name": "Share the Wealth",
+            "Suppy Line": "The Stilts (4)",
+            "Supply Track": "Alley",
+            "Position In Track": "11",
+            "Damage Type": "-",
+            "Effect Description ": "Each teammate gets 100 Bonus Copper at the start of each level.",
+            "Effects": {
+                "Qualitative": "Each teammate gets 100 Bonus Copper at the start of each level."
+            }
+        },
+        {
+            "id": 128,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Fortune",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "shell_carrier.png",
+            "Name": "Shell Carrier",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "Weapon",
+            "Effect Description ": " +30% Shotgun Ammo Capacity, +10% Damage with Shotguns.",
+            "Effects": {
+                "Qualitative": " +30% Shotgun Ammo Capacity, +10% Damage with Shotguns."
+            }
+        },
+        {
+            "id": 129,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "shooting_gloves.png",
+            "Name": "Shooting Gloves",
+            "Suppy Line": "The Crow's Nest",
+            "Supply Track": "Nest",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +25% Weapon Swap Speed, +15% Recoil Control, +15% Accuracy",
+            "Effects": {
+                "Weapon Swap Speed": "0.25",
+                "Accuracy": "0.15",
+                "Recoil Control": "0.15"
+            }
+        },
+        {
+            "id": 130,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Fortune ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "shoulder_bag.png",
+            "Name": "Shoulder Bag",
+            "Suppy Line": "The Clinic (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": " +2 Support Inventory, -5% Move Speed",
+            "Effects": {
+                "Move Speed": "-0.5",
+                "Support Inventory": "2"
+            }
+        },
+        {
+            "id": 131,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "shredder.png",
+            "Name": "Shredder",
+            "Suppy Line": "The Crow's Nest (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "7",
+            "Damage Type": "Shredder",
+            "Effect Description ": "Each bullet hit causes the target to take 1% increased damage for 3 Seconds (Stacks up to 15%).",
+            "Effects": {
+                "Qualitative": "Each bullet hit causes the target to take 1% increased damage for 3 Seconds (Stacks up to 15%)."
+            }
+        },
+        {
+            "id": 132,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Image": "silver_bullets.png",
+            "Name": "Silver Bullets",
+            "Suppy Line": "The Stilts (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "5",
+            "Damage Type": "Bullet",
+            "Effect Description ": " +7.5% Bullet Damage, +15% Effective Range",
+            "Effects": {
+                "Bullet Damage": "0.075",
+                "Effective Bullet Range": "0.15"
+            }
+        },
+        {
+            "id": 133,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "slugger.png",
+            "Name": "Slugger",
+            "Suppy Line": "Grant's Brew House",
+            "Supply Track": "Clinic",
+            "Position In Track": "3",
+            "Damage Type": "-",
+            "Effect Description ": " +5 Health, +10% Melee Stamina Efficiency, +20% Melee Attack Speed",
+            "Effects": {
+                "Melee Speed": "0.2",
+                "Health": "5",
+                "Melee Stamina Efficiency": "0.1"
+            }
+        },
+        {
+            "id": 134,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "smelling_salts.png",
+            "Name": "Smelling Salts",
+            "Suppy Line": "Grant's Brew House",
+            "Supply Track": "Clinic",
+            "Position In Track": "3",
+            "Damage Type": "-",
+            "Effect Description ": " +200% Revive Speed",
+            "Effects": {
+                "Revive Speed": "1.999"
+            }
+        },
+        {
+            "id": 135,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "speed_demon.png",
+            "Name": "Speed Demon",
+            "Suppy Line": "The Crow's Nest (4)",
+            "Supply Track": "Nest",
+            "Position In Track": "10",
+            "Damage Type": "-",
+            "Effect Description ": " +4% Movement Speed while using an SMG, +35% Reload Speed while using an SMG.",
+            "Effects": {
+                "Qualitative": " +4% Movement Speed while using an SMG, +35% Reload Speed while using an SMG."
+            }
+        },
+        {
+            "id": 136,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "spiky_bits.png",
+            "Name": "Spiky Bits",
+            "Suppy Line": "The Stilts (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "5",
+            "Damage Type": "Melee",
+            "Effect Description ": " +20% Melee Damage, +10% Damage Resistance while using a Melee weapon, -15% Ammo Capacity",
+            "Effects": {
+                "Melee Damage": "0.2",
+                "Ammo Capacity": "-0.15",
+                "Damage Resistance": "0.1"
+            }
+        },
+        {
+            "id": 137,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "steady_aim.png",
+            "Name": "Steady Aim",
+            "Suppy Line": "The Stilts (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "5",
+            "Damage Type": "-",
+            "Effect Description ": "Every 0.75 seconds you Aim Down Sights gives 10% Recoil Control (up to 3 stacks) +80% Aim Speed, -50% ADS Move Speed",
+            "Effects": {
+                "Aim Speed": "0.8",
+                "Recoil Control": "0.3",
+                "Move Speed ADS": "-0.5"
+            }
+        },
+        {
+            "id": 138,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "stimulants.png",
+            "Name": "Stimulants",
+            "Suppy Line": "The Crow's Nest (3)",
+            "Supply Track": "Nest",
+            "Position In Track": "7",
+            "Damage Type": "-",
+            "Effect Description ": "Pain Meds you apply also grant +20% Stamina Regen, +15% Reload Speed, and +15% Weapon Swap Speed for 60 Seconds.",
+            "Effects": {
+                "Qualitative": "Pain Meds you apply also grant +20% Stamina Regen, +15% Reload Speed, and +15% Weapon Swap Speed for 60 Seconds."
+            }
+        },
+        {
+            "id": 139,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "stock_pouch.png",
+            "Name": "Stock Pouch",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "Weapon",
+            "Effect Description ": " +30% Sniper Ammo Capacity, +10% Damage with Sniper Rifles.",
+            "Effects": {
+                "Qualitative": " +30% Sniper Ammo Capacity, +10% Damage with Sniper Rifles."
+            }
+        },
+        {
+            "id": 140,
+            "Deck Category": "Campaign",
+            "Type": "Offense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "sunder.png",
+            "Name": "Sunder",
+            "Suppy Line": "The Clinic (3)",
+            "Supply Track": "Clinic",
+            "Position In Track": "7",
+            "Damage Type": "Sunder",
+            "Effect Description ": "Melee hits cause the target to take 20% Increased damage for 5 Seconds.",
+            "Effects": {
+                "Qualitative": "Melee hits cause the target to take 20% Increased damage for 5 Seconds."
+            }
+        },
+        {
+            "id": 141,
+            "Deck Category": "Campaign",
+            "Type": "Mobility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Image": "superior_cardio.png",
+            "Name": "Superior Cardio",
+            "Suppy Line": "The Crow's Nest",
+            "Supply Track": "Nest",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +20% Stamina, +20% Sprint Efficiency  +5 Health",
+            "Effects": {
+                "Stamina": "0.2",
+                "Health": "5",
+                "Sprint Stamina Effeciency": "0.2"
+            }
+        },
+        {
+            "id": 142,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "N/A",
+            "Image": "support_scavenger.png",
+            "Name": "Support Scavenger",
+            "Suppy Line": "The Furnace ",
+            "Supply Track": "Clinic",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": "You can sense nearby Support Accessories. More Support Accessories Spawn",
+            "Effects": {
+                "Qualitative": "You can sense nearby Support Accessories. More Support Accessories Spawn"
+            }
+        },
+        {
+            "id": 143,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Fortune",
+            "Team Effect": "Yes",
+            "Copper Cost": "600",
+            "Image": "surplus_pouches.png",
+            "Name": "Surplus Pouches",
+            "Suppy Line": "Fort Hope (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": " -10% Health, +1 Team Offensive Accessory",
+            "Effects": {
+                "Health": "-0.1",
+                "Team Offensive Inventory": "1"
+            }
+        },
+        {
+            "id": 144,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "tactical_vest.png",
+            "Name": "Tactical Vest",
+            "Suppy Line": "Accomplishment",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "Weapon",
+            "Effect Description ": " +30% Rifle Ammo Capacity, +10% Damage with Assault Rifles, and LMGs.",
+            "Effects": {
+                "Qualitative": " +30% Rifle Ammo Capacity, +10% Damage with Assault Rifles, and LMGs."
+            }
+        },
+        {
+            "id": 145,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune ",
+            "Team Effect": "Yes",
+            "Image": "tool_belts.png",
+            "Name": "Tool Belts",
+            "Suppy Line": "Roving Merchants: KSC Convoy",
+            "Supply Track": "KSC Convoy",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " -10% Health, +1 Team Quick Item Inventory",
+            "Effects": {
+                "Health": "-0.1",
+                "Team Quick Item Inventory": "1"
+            }
+        },
+        {
+            "id": 146,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "trigger_control.png",
+            "Name": "Trigger Control",
+            "Suppy Line": "Fort Hope (3)",
+            "Supply Track": "Alley",
+            "Position In Track": "9",
+            "Damage Type": "-",
+            "Effect Description ": "Precision Kills grant +20% Accuracy for 5 seconds.",
+            "Effects": {
+                "Qualitative": "Precision Kills grant +20% Accuracy for 5 seconds.",
+                "Accuracy": "0.2"
+            }
+        },
+        {
+            "id": 147,
+            "Deck Category": "Campaign",
+            "Type": "Defense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "true_grit.png",
+            "Name": "True Grit",
+            "Suppy Line": "The Furnace (3)",
+            "Supply Track": "Clinic",
+            "Position In Track": "8",
+            "Damage Type": "-",
+            "Effect Description ": "When you take a single hit for 15 or more damage, heal 10 Health over 5 Seconds.",
+            "Effects": {
+                "Qualitative": "When you take a single hit for 15 or more damage, heal 10 Health over 5 Seconds."
+            }
+        },
+        {
+            "id": 148,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "tunnel_vision.png",
+            "Name": "Tunnel Vision",
+            "Suppy Line": "The Crow's Nest (2)",
+            "Supply Track": "Nest",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": "Every 0.75 seconds you Aim Down Sights gives 5% Weakspot Damage (up to 3 stacks) +50% Aim Speed, -5% Damage Resistance ",
+            "Effects": {
+                "Qualitative": "Every 0.75 seconds you Aim Down Sights gives 5% Weakspot Damage (up to 3 stacks) +50% Aim Speed, -5% Damage Resistance ",
+                "Aim Speed": "0.5",
+                "Weakspot Damage": "0.15",
+                "Damage Resistance": "-0.05"
+            }
+        },
+        {
+            "id": 149,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "two_is_one_and_one_is_none.png",
+            "Name": "Two is One and One is None",
+            "Suppy Line": "Paul's Alley (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": "You can equip a Primary weapon in your Secondary slot. -25% Swap speed",
+            "Effects": {
+                "Qualitative": "You can equip a Primary weapon in your Secondary slot. -25% Swap speed",
+                "Weapon Swap Speed": "-0.25"
+            }
+        },
+        {
+            "id": 150,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Fortune ",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "utility_belt.png",
+            "Name": "Utility Belt",
+            "Suppy Line": "Roving Merchants: Liberators",
+            "Supply Track": "Liberators",
+            "Position In Track": "1",
+            "Damage Type": "-",
+            "Effect Description ": " +2 Quick Item Inventory, -5% Move Speed",
+            "Effects": {
+                "Move Speed": "-0.05",
+                "Quick Item Inventory": "2"
+            }
+        },
+        {
+            "id": 151,
+            "Deck Category": "Campaign",
+            "Type": "Utility",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "N/A",
+            "Image": "utility_scavenger.png",
+            "Name": "Utility Scavenger",
+            "Suppy Line": "Bridge Town",
+            "Supply Track": "Nest",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": "You can sense nearby Quick Accessories. More Quick Accessories spawn.",
+            "Effects": {
+                "Qualitative": "You can sense nearby Quick Accessories. More Quick Accessories spawn."
+            }
+        },
+        {
+            "id": 152,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No (Yes)",
+            "Copper Cost": "600",
+            "Image": "vanguard.png",
+            "Name": "Vanguard",
+            "Suppy Line": "Fort Hope (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": "Melee kills grant 1 Temporary Health to you and nearby teammates.",
+            "Effects": {
+                "Qualitative": "Melee kills grant 1 Temporary Health to you and nearby teammates."
+            }
+        },
+        {
+            "id": 153,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "200",
+            "Image": "vitamins.png",
+            "Name": "Vitamins",
+            "Suppy Line": "The Strip",
+            "Supply Track": "The Strip",
+            "Position In Track": "0",
+            "Damage Type": "-",
+            "Effect Description ": " +15 Health ",
+            "Effects": {
+                "Health": "15"
+            }
+        },
+        {
+            "id": 154,
+            "Deck Category": "Campaign",
+            "Type": "Utility ",
+            "Card Affinity": "Discipline ",
+            "Team Effect": "No",
+            "Copper Cost": "N/A",
+            "Image": "weapon_scavenger.png",
+            "Name": "Weapon Scavenger",
+            "Suppy Line": "Fort Hope (2)",
+            "Supply Track": "Alley",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": "You can sense nearby Weapons. More weapons spawn",
+            "Effects": {
+                "Qualitative": "You can sense nearby Weapons. More weapons spawn"
+            }
+        },
+        {
+            "id": 155,
+            "Deck Category": "Campaign",
+            "Type": "Defense ",
+            "Card Affinity": "Brawn",
+            "Team Effect": "Yes",
+            "Copper Cost": "800",
+            "Image": "well_fed.png",
+            "Name": "Well Fed",
+            "Suppy Line": "The Clinic (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "4",
+            "Damage Type": "-",
+            "Effect Description ": " +10 Team Health",
+            "Effects": {
+                "Team Health": "10"
+            }
+        },
+        {
+            "id": 156,
+            "Deck Category": "Campaign",
+            "Type": "Offense",
+            "Card Affinity": "Reflex",
+            "Team Effect": "No",
+            "Copper Cost": "400",
+            "Image": "widemouth_magwell.png",
+            "Name": "Widemouth Magwell",
+            "Suppy Line": "The Stilts",
+            "Supply Track": "Alley",
+            "Position In Track": "2",
+            "Damage Type": "-",
+            "Effect Description ": " +30% Reload Speed, -5% Damage Resistance",
+            "Effects": {
+                "Reload Speed": "0.3",
+                "Damage Resistance": "-0.05"
+            }
+        },
+        {
+            "id": 157,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Brawn",
+            "Team Effect": "No",
+            "Copper Cost": "600",
+            "Image": "wooden_armor.png",
+            "Name": "Wooden Armor",
+            "Suppy Line": "Grant's Brew House (2)",
+            "Supply Track": "Clinic",
+            "Position In Track": "6",
+            "Damage Type": "-",
+            "Effect Description ": " +30% Trauma Resistance, -100% Fire Resistance",
+            "Effects": {
+                "Fire Resistance": "-0.999",
+                "Trauma Resistance": "0.3"
+            }
+        },
+        {
+            "id": 158,
+            "Deck Category": "Campaign",
+            "Type": "Defense",
+            "Card Affinity": "Fortune ",
+            "Team Effect": "No",
+            "Copper Cost": "800",
+            "Image": "wounded_animal.png",
+            "Name": "Wounded Animal",
+            "Suppy Line": "Starter Deck",
+            "Supply Track": "N/A",
+            "Position In Track": "N/A",
+            "Damage Type": "-",
+            "Effect Description ": "Kills while at Critical Health recover 1 Health",
+            "Effects": {
+                "Qualitative": "Kills while at Critical Health recover 1 Health"
+            }
+        }
+    ]
+}

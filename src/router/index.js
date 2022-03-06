@@ -1,8 +1,10 @@
-import {createRouter, createWebHistory, useRoute} from 'vue-router'
-import Home from "@/views/Home.vue";
+import {createRouter, createWebHistory, useRoute} from 'vue-router';
+import TheDashboard from "@/components/TheDashboard.vue";
+import TheCards from "@/components/TheCards.vue";
 
 const routes = [
-    {path: '/', name: 'Home', component: Home, alias: "/home"},
+    {path: '/', name: 'Dashboard', component: TheDashboard, alias: "/home"},
+    {path: '/cards', name: 'Cards', component: TheCards, alias: "/cards"}
     // {
     //     path: '/protected',
     //     name: 'protected',

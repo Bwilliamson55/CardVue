@@ -1,10 +1,10 @@
 <template>
   <div class="bg-white">
       
-      <div class="text-center py-16 px-4 sm:px-6 lg:px-8">
+      <!-- <div class="text-center py-16 px-4 sm:px-6 lg:px-8">
         <h1 class="text-4xl font-extrabold tracking-tight text-gray-900">Workspace</h1>
         <p class="mt-4 max-w-xl mx-auto text-base text-gray-500">The secret to a tidy desk? Don't get rid of anything, just put it in really really nice looking containers.</p>
-      </div>
+      </div> -->
 
       <!-- Filters -->
       <Disclosure as="section" aria-labelledby="filter-heading" class="relative z-10 border-t border-b border-gray-200 grid items-center">
@@ -14,66 +14,71 @@
             <div>
               <DisclosureButton class="group text-gray-700 font-medium flex items-center">
                 <FilterIcon class="flex-none w-5 h-5 mr-2 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
-                2 Filters
+                {{ activeFilterCount }} Filters
               </DisclosureButton>
             </div>
             <div class="pl-6">
-              <button type="button" class="text-gray-500">Clear all</button>
+              <button type="button" class="text-gray-500" @click="clearAllFilters()">Clear all</button>
             </div>
           </div>
         </div>
         <DisclosurePanel class="border-t border-gray-200 py-10">
-          <div class="max-w-7xl mx-auto grid grid-cols-2 gap-x-4 px-4 text-sm sm:px-6 md:gap-x-6 lg:px-8">
-            <div class="grid grid-cols-1 gap-y-10 auto-rows-min md:grid-cols-2 md:gap-x-6">
+          <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-4 px-4 text-sm sm:px-6 md:gap-x-6 lg:px-8">
+            <div class="grid grid-cols-1 gap-y-10 auto-rows-min lg:grid-cols-2 lg:gap-x-6">
               <fieldset>
-                <legend class="block font-medium">Price</legend>
+                <legend class="block font-medium">Team Effect?</legend>
                 <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
-                  <div v-for="(option, optionIdx) in filters.price" :key="option.value" class="flex items-center text-base sm:text-sm">
-                    <input :id="`price-${optionIdx}`" name="price[]" :value="option.value" type="checkbox" class="flex-shrink-0 h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500" :checked="option.checked" />
-                    <label :for="`price-${optionIdx}`" class="ml-3 min-w-0 flex-1 text-gray-600">
-                      {{ option.label }}
-                    </label>
-                  </div>
+                  <Multiselect v-model="gridFilters.teamEffect" :options="['Any', 'No', 'Yes']"
+                  placeholder="Choose" />
+                </div>
+              </fieldset>
+              <fieldset class="p-2">
+                <legend class="block font-medium">Copper Cost</legend>
+                <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
+                  <Slider v-model="gridFilters.costMinMax.value" v-bind="gridFilters.costMinMax" :min="0" :max="800" :step="25" />
                 </div>
               </fieldset>
               <fieldset>
-                <legend class="block font-medium">Color</legend>
+                <legend class="block font-medium">Damage Type</legend>
                 <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
-                  <div v-for="(option, optionIdx) in filters.color" :key="option.value" class="flex items-center text-base sm:text-sm">
-                    <input :id="`color-${optionIdx}`" name="color[]" :value="option.value" type="checkbox" class="flex-shrink-0 h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500" :checked="option.checked" />
-                    <label :for="`color-${optionIdx}`" class="ml-3 min-w-0 flex-1 text-gray-600">
-                      {{ option.label }}
-                    </label>
-                  </div>
+                  <Multiselect v-model="gridFilters.damageType" :options="cardFilters.damageTypes" mode="tags"
+                  :close-on-select="false" :searchable="true" :create-option="false" :classes="{tagsSearch: 'absolute inset-0 border-0 outline-none focus:ring-0 appearance-none p-0 text-base font-sans box-border w-full'}"
+                  placeholder="Choose Type(s)" />
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend class="block font-medium">Effects</legend>
+                <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
+                  <Multiselect v-model="gridFilters.effects" :options="cardFilters.effects" mode="tags"
+                  :close-on-select="false" :searchable="true" :create-option="false" :classes="{tagsSearch: 'absolute inset-0 border-0 outline-none focus:ring-0 appearance-none p-0 text-base font-sans box-border w-full'}"
+                  placeholder="Choose Effect(s)" />
                 </div>
               </fieldset>
             </div>
-            <div class="grid grid-cols-1 gap-y-10 auto-rows-min md:grid-cols-2 md:gap-x-6">
+
+            <div class="grid grid-cols-1 gap-y-10 auto-rows-min lg:grid-cols-2 lg:gap-x-6">
+              
               <fieldset>
-                <legend class="block font-medium">Size</legend>
+                <legend class="block font-medium">Supply Line</legend>
                 <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
-                  <div v-for="(option, optionIdx) in filters.size" :key="option.value" class="flex items-center text-base sm:text-sm">
-                    <input :id="`size-${optionIdx}`" name="size[]" :value="option.value" type="checkbox" class="flex-shrink-0 h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500" :checked="option.checked" />
-                    <label :for="`size-${optionIdx}`" class="ml-3 min-w-0 flex-1 text-gray-600">
-                      {{ option.label }}
-                    </label>
-                  </div>
+                  <Multiselect v-model="gridFilters.supplyLine" :options="cardFilters.supplyLines" mode="tags"
+                  :close-on-select="false" :searchable="true" :create-option="false" :classes="{tagsSearch: 'absolute inset-0 border-0 outline-none focus:ring-0 appearance-none p-0 text-base font-sans box-border w-full'}"
+                  placeholder="Choose Line(s)" />
                 </div>
               </fieldset>
               <fieldset>
-                <legend class="block font-medium">Category</legend>
+                <legend class="block font-medium">Supply Track</legend>
                 <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
-                  <div v-for="(option, optionIdx) in filters.category" :key="option.value" class="flex items-center text-base sm:text-sm">
-                    <input :id="`category-${optionIdx}`" name="category[]" :value="option.value" type="checkbox" class="flex-shrink-0 h-4 w-4 border-gray-300 rounded text-indigo-600 focus:ring-indigo-500" :checked="option.checked" />
-                    <label :for="`category-${optionIdx}`" class="ml-3 min-w-0 flex-1 text-gray-600">
-                      {{ option.label }}
-                    </label>
-                  </div>
+                  <Multiselect v-model="gridFilters.supplyTrack" :options="cardFilters.supplyTracks" mode="tags"
+                  :close-on-select="false" :searchable="true" :create-option="false" :classes="{tagsSearch: 'absolute inset-0 border-0 outline-none focus:ring-0 appearance-none p-0 text-base font-sans box-border w-full'}"
+                  placeholder="Choose Track(s)" />
                 </div>
               </fieldset>
+
             </div>
           </div>
         </DisclosurePanel>
+        <!-- sort -->
         <div class="col-start-1 row-start-1 py-4">
           <div class="flex justify-end max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Menu as="div" class="relative inline-block">
@@ -109,9 +114,24 @@
             <h2 class="sr-only">Cards</h2>
             
             <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-                <a v-for="card in cardsStorage" :key="card.id" class="group">
+                <a v-for="card in filteredCards" :key="card.id" class="group" >
                 <div class="w-full aspect-w-2 aspect-h-3 bg-gray-200 rounded-lg overflow-hidden">
-                    <img :src="'/campaign cards/' + card.Image" :alt="card.Name" class="w-full h-full object-center object-cover group-hover:opacity-75" />
+                    <img :src="'/campaign cards/' + card.Image" :alt="card.Name" class="w-full h-full object-center object-cover group-hover:opacity-75"
+                      v-show="!cardsStorage[card.id].flipped" @click="cardsStorage[card.id].flipped = !cardsStorage[card.id].flipped"/>
+                    <div class="p-2 w-full h-full object-center object-cover group-hover:opacity-50"
+                      v-show="cardsStorage[card.id].flipped" @click="cardsStorage[card.id].flipped = !cardsStorage[card.id].flipped">
+                      <p class="text-gray-900 group-hover:text-gray-700">Type: {{ card.Type || 'N/A' }}</p>
+                      <p class="text-gray-900 group-hover:text-gray-700">Affinity: {{ card.Card_Affinity || 'N/A' }}</p>
+                      <p class="text-gray-900 group-hover:text-gray-700">Team Effect?: {{ card.Team_Effect || 'N/A' }}</p>
+                      <p class="text-gray-900 group-hover:text-gray-700">Copper Cost: {{ card.Copper_Cost || 'N/A' }}</p>
+                      <p class="text-gray-900 group-hover:text-gray-700">Damage Type: {{ card.Damage_Type || 'N/A' }}</p>
+                      <p class="text-gray-900 group-hover:text-gray-700">Supply Line: {{ card.Supply_Line || 'N/A' }}</p>
+                      <p class="text-gray-900 group-hover:text-gray-700">Supply Track: {{ card.Supply_Track || 'N/A' }}</p>
+                      <p class="text-gray-900 group-hover:text-gray-700">Position in Track: {{ card.Position_In_Track || 'N/A' }}</p>
+                      <p class="text-gray-900 group-hover:text-gray-700">Effects:</p>
+                      <p v-for="(ek, ev) in card.Effects"
+                        class="text-gray-900 group-hover:text-gray-700 border border-gray-400 rounded-md text-xs p-1">{{ev}}: {{ek}}</p>
+                    </div>
                 </div>
                 </a>
             </div>
@@ -119,30 +139,11 @@
         </div>
       </section>
 
-      <!-- Pagination -->
-      <nav aria-label="Pagination" class="max-w-7xl mx-auto px-4 mt-6 flex justify-between text-sm font-medium text-gray-700 sm:px-6 lg:px-8 pb-3">
-        <div class="min-w-0 flex-1">
-          <a href="#" class="inline-flex items-center px-4 h-10 border border-gray-300 rounded-md bg-white hover:bg-gray-100 focus:outline-none focus:border-indigo-600 focus:ring-2 focus:ring-offset-1 focus:ring-offset-indigo-600 focus:ring-indigo-600 focus:ring-opacity-25"> Previous </a>
-        </div>
-        <div class="hidden space-x-2 sm:flex">
-          <!-- Current: "border-indigo-600 ring-1 ring-indigo-600", Default: "border-gray-300" -->
-          <a href="#" class="inline-flex items-center px-4 h-10 border border-gray-300 rounded-md bg-white hover:bg-gray-100 focus:outline-none focus:border-indigo-600 focus:ring-2 focus:ring-offset-1 focus:ring-offset-indigo-600 focus:ring-indigo-600 focus:ring-opacity-25"> 1 </a>
-          <a href="#" class="inline-flex items-center px-4 h-10 border border-gray-300 rounded-md bg-white hover:bg-gray-100 focus:outline-none focus:border-indigo-600 focus:ring-2 focus:ring-offset-1 focus:ring-offset-indigo-600 focus:ring-indigo-600 focus:ring-opacity-25"> 2 </a>
-          <a href="#" class="inline-flex items-center px-4 h-10 border border-indigo-600 ring-1 ring-indigo-600 rounded-md bg-white hover:bg-gray-100 focus:outline-none focus:border-indigo-600 focus:ring-2 focus:ring-offset-1 focus:ring-offset-indigo-600 focus:ring-indigo-600 focus:ring-opacity-25"> 3 </a>
-          <span class="inline-flex items-center text-gray-500 px-1.5 h-10"> ... </span>
-          <a href="#" class="inline-flex items-center px-4 h-10 border border-gray-300 rounded-md bg-white hover:bg-gray-100 focus:outline-none focus:border-indigo-600 focus:ring-2 focus:ring-offset-1 focus:ring-offset-indigo-600 focus:ring-indigo-600 focus:ring-opacity-25"> 8 </a>
-          <a href="#" class="inline-flex items-center px-4 h-10 border border-gray-300 rounded-md bg-white hover:bg-gray-100 focus:outline-none focus:border-indigo-600 focus:ring-2 focus:ring-offset-1 focus:ring-offset-indigo-600 focus:ring-indigo-600 focus:ring-opacity-25"> 9 </a>
-          <a href="#" class="inline-flex items-center px-4 h-10 border border-gray-300 rounded-md bg-white hover:bg-gray-100 focus:outline-none focus:border-indigo-600 focus:ring-2 focus:ring-offset-1 focus:ring-offset-indigo-600 focus:ring-indigo-600 focus:ring-opacity-25"> 10 </a>
-        </div>
-        <div class="min-w-0 flex-1 flex justify-end">
-          <a href="#" class="inline-flex items-center px-4 h-10 border border-gray-300 rounded-md bg-white hover:bg-gray-100 focus:outline-none focus:border-indigo-600 focus:ring-2 focus:ring-offset-1 focus:ring-offset-indigo-600 focus:ring-indigo-600 focus:ring-opacity-25"> Next </a>
-        </div>
-      </nav>
   </div>
 </template>
 
 <script>
-import { ref } from 'vue'
+import {ref} from 'vue'
 import {
   Dialog,
   DialogOverlay,
@@ -165,227 +166,13 @@ import {
   TransitionChild,
   TransitionRoot,
 } from '@headlessui/vue'
-import { MenuIcon, SearchIcon, ShoppingBagIcon, UserIcon, XIcon } from '@heroicons/vue/outline'
-import { ChevronDownIcon, FilterIcon, StarIcon } from '@heroicons/vue/solid'
-import { useStorage } from "vue3-storage"
+import {MenuIcon, SearchIcon, ShoppingBagIcon, UserIcon, XIcon} from '@heroicons/vue/outline'
+import {ChevronDownIcon, FilterIcon, StarIcon} from '@heroicons/vue/solid'
+import {useStorage} from "vue3-storage"
 import cardsDataSeed from "@/CardsSeed.json"
+import Multiselect from '@vueform/multiselect'
+import Slider from '@vueform/slider'
 
-const navigation = {
-  categories: [
-    {
-      id: 'women',
-      name: 'Women',
-      featured: [
-        {
-          name: 'New Arrivals',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg',
-          imageAlt: 'Models sitting back to back, wearing Basic Tee in black and bone.',
-        },
-        {
-          name: 'Basic Tees',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
-          imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
-        },
-        {
-          name: 'Accessories',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-03.jpg',
-          imageAlt: 'Model wearing minimalist watch with black wristband and white watch face.',
-        },
-      ],
-      sections: [
-        [
-          {
-            id: 'shoes',
-            name: 'Shoes & Accessories',
-            items: [
-              { name: 'Sneakers', href: '#' },
-              { name: 'Boots', href: '#' },
-              { name: 'Flats', href: '#' },
-              { name: 'Sandals', href: '#' },
-              { name: 'Heels', href: '#' },
-              { name: 'Socks', href: '#' },
-            ],
-          },
-          {
-            id: 'collection',
-            name: 'Shop Collection',
-            items: [
-              { name: 'Everything', href: '#' },
-              { name: 'Core', href: '#' },
-              { name: 'New Arrivals', href: '#' },
-              { name: 'Sale', href: '#' },
-              { name: 'Accessories', href: '#' },
-            ],
-          },
-        ],
-        [
-          {
-            id: 'clothing',
-            name: 'All Clothing',
-            items: [
-              { name: 'Basic Tees', href: '#' },
-              { name: 'Artwork Tees', href: '#' },
-              { name: 'Tops', href: '#' },
-              { name: 'Bottoms', href: '#' },
-              { name: 'Swimwear', href: '#' },
-              { name: 'Underwear', href: '#' },
-            ],
-          },
-          {
-            id: 'accessories',
-            name: 'All Accessories',
-            items: [
-              { name: 'Watches', href: '#' },
-              { name: 'Wallets', href: '#' },
-              { name: 'Bags', href: '#' },
-              { name: 'Sunglasses', href: '#' },
-              { name: 'Hats', href: '#' },
-              { name: 'Belts', href: '#' },
-            ],
-          },
-        ],
-        [
-          {
-            id: 'brands',
-            name: 'Brands',
-            items: [
-              { name: 'Full Nelson', href: '#' },
-              { name: 'My Way', href: '#' },
-              { name: 'Re-Arranged', href: '#' },
-              { name: 'Counterfeit', href: '#' },
-              { name: 'Significant Other', href: '#' },
-            ],
-          },
-        ],
-      ],
-    },
-    {
-      id: 'men',
-      name: 'Men',
-      featured: [
-        {
-          name: 'Accessories',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-03-category-01.jpg',
-          imageAlt:
-            'Wooden shelf with gray and olive drab green baseball caps, next to wooden clothes hanger with sweaters.',
-        },
-        {
-          name: 'New Arrivals',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg',
-          imageAlt: 'Drawstring top with elastic loop closure and textured interior padding.',
-        },
-        {
-          name: 'Artwork Tees',
-          href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg',
-          imageAlt:
-            'Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.',
-        },
-      ],
-      sections: [
-        [
-          {
-            id: 'shoes',
-            name: 'Shoes & Accessories',
-            items: [
-              { name: 'Sneakers', href: '#' },
-              { name: 'Boots', href: '#' },
-              { name: 'Sandals', href: '#' },
-              { name: 'Socks', href: '#' },
-            ],
-          },
-          {
-            id: 'collection',
-            name: 'Shop Collection',
-            items: [
-              { name: 'Everything', href: '#' },
-              { name: 'Core', href: '#' },
-              { name: 'New Arrivals', href: '#' },
-              { name: 'Sale', href: '#' },
-            ],
-          },
-        ],
-        [
-          {
-            id: 'clothing',
-            name: 'All Clothing',
-            items: [
-              { name: 'Basic Tees', href: '#' },
-              { name: 'Artwork Tees', href: '#' },
-              { name: 'Pants', href: '#' },
-              { name: 'Hoodies', href: '#' },
-              { name: 'Swimsuits', href: '#' },
-            ],
-          },
-          {
-            id: 'accessories',
-            name: 'All Accessories',
-            items: [
-              { name: 'Watches', href: '#' },
-              { name: 'Wallets', href: '#' },
-              { name: 'Bags', href: '#' },
-              { name: 'Sunglasses', href: '#' },
-              { name: 'Hats', href: '#' },
-              { name: 'Belts', href: '#' },
-            ],
-          },
-        ],
-        [
-          {
-            id: 'brands',
-            name: 'Brands',
-            items: [
-              { name: 'Re-Arranged', href: '#' },
-              { name: 'Counterfeit', href: '#' },
-              { name: 'Full Nelson', href: '#' },
-              { name: 'My Way', href: '#' },
-            ],
-          },
-        ],
-      ],
-    },
-  ],
-  pages: [
-    { name: 'Company', href: '#' },
-    { name: 'Stores', href: '#' },
-  ],
-}
-const filters = {
-  price: [
-    { value: '0', label: '$0 - $25', checked: false },
-    { value: '25', label: '$25 - $50', checked: false },
-    { value: '50', label: '$50 - $75', checked: false },
-    { value: '75', label: '$75+', checked: false },
-  ],
-  color: [
-    { value: 'white', label: 'White', checked: false },
-    { value: 'beige', label: 'Beige', checked: false },
-    { value: 'blue', label: 'Blue', checked: true },
-    { value: 'brown', label: 'Brown', checked: false },
-    { value: 'green', label: 'Green', checked: false },
-    { value: 'purple', label: 'Purple', checked: false },
-  ],
-  size: [
-    { value: 'xs', label: 'XS', checked: false },
-    { value: 's', label: 'S', checked: true },
-    { value: 'm', label: 'M', checked: false },
-    { value: 'l', label: 'L', checked: false },
-    { value: 'xl', label: 'XL', checked: false },
-    { value: '2xl', label: '2XL', checked: false },
-  ],
-  category: [
-    { value: 'all-new-arrivals', label: 'All New Arrivals', checked: false },
-    { value: 'tees', label: 'Tees', checked: false },
-    { value: 'objects', label: 'Objects', checked: false },
-    { value: 'sweatshirts', label: 'Sweatshirts', checked: false },
-    { value: 'pants-and-shorts', label: 'Pants & Shorts', checked: false },
-  ],
-}
 const sortOptions = [
   { name: 'Most Popular', href: '#', current: true },
   { name: 'Best Rating', href: '#', current: false },
@@ -393,76 +180,6 @@ const sortOptions = [
   { name: 'Price: Low to High', href: '#', current: false },
   { name: 'Price: High to Low', href: '#', current: false },
 ]
-const products = [
-  {
-    id: 1,
-    name: 'Organize Basic Set (Walnut)',
-    price: '$149',
-    rating: 5,
-    reviewCount: 38,
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-01.jpg',
-    imageAlt: 'TODO',
-    href: '#',
-  },
-  {
-    id: 2,
-    name: 'Organize Pen Holder',
-    price: '$15',
-    rating: 5,
-    reviewCount: 18,
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-02.jpg',
-    imageAlt: 'TODO',
-    href: '#',
-  },
-  {
-    id: 3,
-    name: 'Organize Sticky Note Holder',
-    price: '$15',
-    rating: 5,
-    reviewCount: 14,
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-03.jpg',
-    imageAlt: 'TODO',
-    href: '#',
-  },
-  {
-    id: 4,
-    name: 'Organize Phone Holder',
-    price: '$15',
-    rating: 4,
-    reviewCount: 21,
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-04.jpg',
-    imageAlt: 'TODO',
-    href: '#',
-  },
-  // More products...
-]
-const footerNavigation = {
-  account: [
-    { name: 'Manage Account', href: '#' },
-    { name: 'Saved Items', href: '#' },
-    { name: 'Orders', href: '#' },
-    { name: 'Redeem Gift card', href: '#' },
-  ],
-  service: [
-    { name: 'Shipping & Returns', href: '#' },
-    { name: 'Warranty', href: '#' },
-    { name: 'FAQ', href: '#' },
-    { name: 'Find a store', href: '#' },
-    { name: 'Get in touch', href: '#' },
-  ],
-  company: [
-    { name: 'Who we are', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Careers', href: '#' },
-    { name: 'Terms & Conditions', href: '#' },
-    { name: 'Privacy', href: '#' },
-  ],
-  connect: [
-    { name: 'Instagram', href: '#' },
-    { name: 'Pinterest', href: '#' },
-    { name: 'Twitter', href: '#' },
-  ],
-}
 
 export default {
   components: {
@@ -475,6 +192,7 @@ export default {
     MenuButton,
     MenuItem,
     MenuItems,
+    Multiselect,
     Popover,
     PopoverButton,
     PopoverGroup,
@@ -491,29 +209,136 @@ export default {
     MenuIcon,
     SearchIcon,
     ShoppingBagIcon,
+    Slider,
     StarIcon,
     UserIcon,
     XIcon,
   },
   setup() {
     const open = ref(false);
+    const value = ref([])
+    const gridFilters = ref(
+      {
+        teamEffect:'',
+        costMinMax: {
+          value: [0, 800],
+          tooltipPosition: 'bottom',
+          orientation: 'horizontal'
+          },
+        supplyLine:[],
+        supplyTrack:[],
+        damageType:[],
+        effects:[]
+      }
+    )
 
     const storage = useStorage();
-    const cardsStorage = storage.getStorageSync('cardsStorage');
+    let cardsStorage = storage.getStorageSync('cardsStorage');
     if (!cardsStorage) {
         storage.setStorageSync("cardsStorage", cardsDataSeed.Cards);
-        cardsStorage = storage.getStorageSync('cardsStorage');
+        cardsStorage = storage.getStorage('cardsStorage');
     }
-
+    cardsStorage.forEach((o, i) => { cardsStorage[i]['flipped'] = false })
+    cardsStorage = ref(cardsStorage)
     return {
-      navigation,
-      filters,
       sortOptions,
-      products,
-      footerNavigation,
       open,
-      cardsStorage
+      cardsStorage,
+      gridFilters,
+      value
     }
   },
+    computed: {
+            filteredCards: function(){
+                return this.filterCardsByRange(
+                    this.filterCardsByEffect(
+                        this.filterCardsByDamageType(
+                            this.filterCardsBySupplyLine(
+                                this.filterCardsBySupplyTrack(
+                                    this.filterCardsByTeamEffect(this.cardsStorage)
+                                )
+                            )
+                        )
+                    )
+                )
+            },
+            activeFilterCount: function() {
+              let count = 0 //excluding cost range
+              let filtList = ['damageType', 'effects', 'supplyLine', 'supplyTrack', 'teamEffect']
+              filtList.forEach((fname) => { (this.gridFilters[fname].length > 0 && this.gridFilters[fname] != "") ? count++ : ''})
+              return count
+            },
+            cardEffectsList: function(){
+              let effects = []
+              this.cardsStorage.forEach(card => {
+                effects.push(Object.keys(card.Effects))
+              })
+                let uniqueEffects = effects.flat(Infinity).filter((x, i, a) => a.indexOf(x) === i)
+                uniqueEffects.sort()
+              return uniqueEffects.reduce((obj, cur) => ({...obj, [cur]: cur.replaceAll('_', ' ')}), {})
+            },
+            cardFilters: function() {
+              return {
+                effects: this.cardEffectsList,
+                supplyLines: this.getUniqueValues(this.cardsStorage, 'Supply_Line').sort(),
+                supplyTracks: this.getUniqueValues(this.cardsStorage, 'Supply_Track').sort(),
+                damageTypes: this.getUniqueValues(this.cardsStorage, 'Damage_Type').sort()
+              }
+            },
+        },
+    methods: {
+        clearAllFilters() {
+          this.gridFilters = 
+            {
+              teamEffect:'Any',
+              costMinMax: {
+                value: [0, 800],
+                tooltipPosition: 'bottom',
+                orientation: 'horizontal'
+                },
+              supplyLine:[],
+              supplyTrack:[],
+              damageType:[],
+              effects:[]
+            }
+        },
+        getUniqueValues(arrayOfObjects, key) {
+          let array = []
+          arrayOfObjects.forEach(obj => {
+            array.push(obj[key])
+          })
+          return array.flat(Infinity).filter((x, i, a) => a.indexOf(x) === i)
+        },
+        filterCardsByTeamEffect(Cards){
+            return Cards.filter(card => ((card.Team_Effect === this.gridFilters.teamEffect)
+                || this.gridFilters.teamEffect === "Any" || this.gridFilters.teamEffect.length <= 0))
+        },
+        filterCardsByRange(Cards){
+            return Cards.filter(card =>
+              ((card.Copper_Cost >= this.gridFilters.costMinMax.value[0] &&
+                card.Copper_Cost <= this.gridFilters.costMinMax.value[1])
+                || !('Copper_Cost' in card))
+            )
+        },
+        filterCardsBySupplyLine(Cards){
+            return Cards.filter(card => (this.gridFilters.supplyLine.includes(card.Supply_Line)
+                || this.gridFilters.supplyLine.length <= 0))
+        },
+        filterCardsBySupplyTrack(Cards){
+            return Cards.filter(card => (this.gridFilters.supplyTrack.includes(card.Supply_Track)
+                || this.gridFilters.supplyTrack.length <= 0))
+        },
+        filterCardsByDamageType(Cards){
+            if (this.gridFilters.damageType.length <= 0){return Cards} 
+            return Cards.filter(card => (this.gridFilters.damageType.includes(card.Damage_Type)
+                || this.gridFilters.damageType.length <= 0))
+        },
+        filterCardsByEffect(Cards){
+            if (this.gridFilters.effects.length <= 0){return Cards} 
+            return Cards.filter(card => this.gridFilters.effects.find(el => el in card.Effects))
+        }
+    },
 }
 </script>
+<style src="@vueform/multiselect/themes/default.css"></style>
+<style src="@vueform/slider/themes/default.css"></style>

@@ -168,7 +168,7 @@ import {
 } from '@headlessui/vue'
 import {MenuIcon, SearchIcon, ShoppingBagIcon, UserIcon, XIcon} from '@heroicons/vue/outline'
 import {ChevronDownIcon, FilterIcon, StarIcon} from '@heroicons/vue/solid'
-import {useStorage} from "vue3-storage"
+import Storage from 'vue-ls'
 import cardsDataSeed from "@/CardsSeed.json"
 import Multiselect from '@vueform/multiselect'
 import Slider from '@vueform/slider'
@@ -231,13 +231,15 @@ export default {
         effects:[]
       }
     )
-
-    const storage = useStorage();
-    let cardsStorage = storage.getStorageSync('cardsStorage');
-    if (!cardsStorage) {
-        storage.setStorageSync("cardsStorage", cardsDataSeed.Cards);
-        cardsStorage = storage.getStorage('cardsStorage');
+    const soptions = {
+      namespace: 'vue_',
+      name: 'ls',
+      storage: 'local'
     }
+    let cardsStorage = []
+    const { ls } = Storage.useStorage(soptions)
+    ls.set("cardsStorage", cardsDataSeed.Cards)
+    cardsStorage = ls.get('cardsStorage')
     cardsStorage.forEach((o, i) => { cardsStorage[i]['flipped'] = false })
     cardsStorage = ref(cardsStorage)
     return {

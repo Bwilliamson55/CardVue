@@ -16,8 +16,8 @@
     "@vueform/slider": "^2.0.9",
     "@vueform/toggle": "^2.0.1",
     "vue": "^3.2.25",
-    "vue-router": "^4.0.13",
-    "vue3-storage": "^0.1.11"
+    "vue-ls": "^4.1.0",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",

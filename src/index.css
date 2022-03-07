@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+    .router-link-exact-active {
+        @apply bg-gray-900 text-white;
+    }
+    .router-link-exact-active > svg {
+        @apply text-gray-300;
+    }
+
+    nav > a:not(.router-link-exact-active) {
+        @apply text-gray-300 hover:bg-gray-700 hover:text-white;
+    }
+
+    nav > a:not(.router-link-exact-active) > svg {
+        @apply text-gray-400 group-hover:text-gray-300;
+    }

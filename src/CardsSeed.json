@@ -2,6 +2,7 @@
     "Cards": [
         {
             "id": 0,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Fortune",
@@ -20,6 +21,7 @@
         },
         {
             "id": 1,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -38,6 +40,7 @@
         },
         {
             "id": 2,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Discipline",
@@ -57,6 +60,7 @@
         },
         {
             "id": 3,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Discipline ",
@@ -76,6 +80,7 @@
         },
         {
             "id": 4,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Discipline ",
@@ -95,6 +100,7 @@
         },
         {
             "id": 5,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Discipline",
@@ -114,6 +120,7 @@
         },
         {
             "id": 6,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Discipline ",
@@ -131,6 +138,7 @@
         },
         {
             "id": 7,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Fortune",
@@ -149,6 +157,7 @@
         },
         {
             "id": 8,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline ",
@@ -168,6 +177,7 @@
         },
         {
             "id": 9,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline",
@@ -187,6 +197,7 @@
         },
         {
             "id": 10,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline ",
@@ -208,6 +219,7 @@
         },
         {
             "id": 11,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Brawn",
@@ -227,6 +239,7 @@
         },
         {
             "id": 12,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Brawn",
@@ -245,6 +258,7 @@
         },
         {
             "id": 13,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune ",
@@ -264,6 +278,7 @@
         },
         {
             "id": 14,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Brawn",
@@ -285,6 +300,7 @@
         },
         {
             "id": 15,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Brawn",
@@ -303,6 +319,7 @@
         },
         {
             "id": 16,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Brawn",
@@ -322,6 +339,7 @@
         },
         {
             "id": 17,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune",
@@ -340,6 +358,7 @@
         },
         {
             "id": 18,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Fortune ",
@@ -359,6 +378,7 @@
         },
         {
             "id": 19,
+            "flipped": false,
             "Deck_Category": "Campaign ",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -379,6 +399,7 @@
         },
         {
             "id": 20,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -397,6 +418,7 @@
         },
         {
             "id": 21,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Brawn",
@@ -414,6 +436,7 @@
         },
         {
             "id": 22,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Brawn",
@@ -432,6 +455,7 @@
         },
         {
             "id": 23,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Brawn",
@@ -450,6 +474,7 @@
         },
         {
             "id": 24,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline ",
@@ -468,6 +493,7 @@
         },
         {
             "id": 25,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Brawn",
@@ -485,6 +511,7 @@
         },
         {
             "id": 26,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility ",
             "Card_Affinity": "Reflex",
@@ -504,6 +531,7 @@
         },
         {
             "id": 27,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Discipline ",
@@ -525,6 +553,7 @@
         },
         {
             "id": 28,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Discipline",
@@ -543,6 +572,7 @@
         },
         {
             "id": 29,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Reflex",
@@ -562,6 +592,7 @@
         },
         {
             "id": 30,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline",
@@ -582,6 +613,7 @@
         },
         {
             "id": 31,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune",
@@ -599,6 +631,7 @@
         },
         {
             "id": 32,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Brawn",
@@ -617,6 +650,7 @@
         },
         {
             "id": 33,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Discipline ",
@@ -635,6 +669,7 @@
         },
         {
             "id": 34,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune",
@@ -652,6 +687,7 @@
         },
         {
             "id": 35,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -673,6 +709,7 @@
         },
         {
             "id": 36,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -691,6 +728,7 @@
         },
         {
             "id": 37,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Brawn",
@@ -709,6 +747,7 @@
         },
         {
             "id": 38,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Brawn",
@@ -728,6 +767,7 @@
         },
         {
             "id": 39,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Fortune",
@@ -747,6 +787,7 @@
         },
         {
             "id": 40,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline ",
@@ -766,6 +807,7 @@
         },
         {
             "id": 41,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Brawn",
@@ -785,6 +827,7 @@
         },
         {
             "id": 42,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline",
@@ -803,6 +846,7 @@
         },
         {
             "id": 43,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility ",
             "Card_Affinity": "Discipline ",
@@ -822,6 +866,7 @@
         },
         {
             "id": 44,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility ",
             "Card_Affinity": "Reflex",
@@ -842,6 +887,7 @@
         },
         {
             "id": 45,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense ",
             "Card_Affinity": "Discipline ",
@@ -863,6 +909,7 @@
         },
         {
             "id": 46,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense ",
             "Card_Affinity": "Brawn",
@@ -881,6 +928,7 @@
         },
         {
             "id": 47,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Fortune ",
@@ -900,6 +948,7 @@
         },
         {
             "id": 48,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline ",
@@ -918,6 +967,7 @@
         },
         {
             "id": 49,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -936,6 +986,7 @@
         },
         {
             "id": 50,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -955,6 +1006,7 @@
         },
         {
             "id": 51,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense ",
             "Card_Affinity": "Brawn",
@@ -973,6 +1025,7 @@
         },
         {
             "id": 52,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Discipline ",
@@ -992,6 +1045,7 @@
         },
         {
             "id": 53,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -1010,6 +1064,7 @@
         },
         {
             "id": 54,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Fortune",
@@ -1029,6 +1084,7 @@
         },
         {
             "id": 55,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Brawn",
@@ -1047,6 +1103,7 @@
         },
         {
             "id": 56,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline ",
@@ -1065,6 +1122,7 @@
         },
         {
             "id": 57,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Reflex",
@@ -1084,6 +1142,7 @@
         },
         {
             "id": 58,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility ",
             "Card_Affinity": "Fortune ",
@@ -1102,6 +1161,7 @@
         },
         {
             "id": 59,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility ",
             "Card_Affinity": "Reflex",
@@ -1121,6 +1181,7 @@
         },
         {
             "id": 60,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Brawn",
@@ -1139,6 +1200,7 @@
         },
         {
             "id": 61,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Brawn",
@@ -1157,6 +1219,7 @@
         },
         {
             "id": 62,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -1176,6 +1239,7 @@
         },
         {
             "id": 63,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -1194,6 +1258,7 @@
         },
         {
             "id": 64,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune",
@@ -1212,6 +1277,7 @@
         },
         {
             "id": 65,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline ",
@@ -1232,6 +1298,7 @@
         },
         {
             "id": 66,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Brawn",
@@ -1251,6 +1318,7 @@
         },
         {
             "id": 67,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -1270,6 +1338,7 @@
         },
         {
             "id": 68,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Brawn",
@@ -1288,6 +1357,7 @@
         },
         {
             "id": 69,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Brawn",
@@ -1307,6 +1377,7 @@
         },
         {
             "id": 70,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline ",
@@ -1325,6 +1396,7 @@
         },
         {
             "id": 71,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline",
@@ -1343,6 +1415,7 @@
         },
         {
             "id": 72,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -1362,6 +1435,7 @@
         },
         {
             "id": 73,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Discipline ",
@@ -1381,6 +1455,7 @@
         },
         {
             "id": 74,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline ",
@@ -1400,6 +1475,7 @@
         },
         {
             "id": 75,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Fortune",
@@ -1419,6 +1495,7 @@
         },
         {
             "id": 76,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Brawn",
@@ -1440,6 +1517,7 @@
         },
         {
             "id": 77,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune ",
@@ -1457,6 +1535,7 @@
         },
         {
             "id": 78,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -1476,6 +1555,7 @@
         },
         {
             "id": 79,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -1495,6 +1575,7 @@
         },
         {
             "id": 80,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -1514,6 +1595,7 @@
         },
         {
             "id": 81,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -1533,6 +1615,7 @@
         },
         {
             "id": 82,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -1551,6 +1634,7 @@
         },
         {
             "id": 83,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Discipline ",
@@ -1569,6 +1653,7 @@
         },
         {
             "id": 84,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Brawn",
@@ -1589,6 +1674,7 @@
         },
         {
             "id": 85,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline ",
@@ -1607,6 +1693,7 @@
         },
         {
             "id": 86,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Reflex",
@@ -1626,6 +1713,7 @@
         },
         {
             "id": 87,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline ",
@@ -1644,6 +1732,7 @@
         },
         {
             "id": 88,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Reflex",
@@ -1665,6 +1754,7 @@
         },
         {
             "id": 89,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Reflex",
@@ -1683,6 +1773,7 @@
         },
         {
             "id": 90,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune",
@@ -1701,6 +1792,7 @@
         },
         {
             "id": 91,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline ",
@@ -1721,6 +1813,7 @@
         },
         {
             "id": 92,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense ",
             "Card_Affinity": "Discipline",
@@ -1740,6 +1833,7 @@
         },
         {
             "id": 93,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune",
@@ -1758,6 +1852,7 @@
         },
         {
             "id": 94,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Reflex",
@@ -1777,6 +1872,7 @@
         },
         {
             "id": 95,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility ",
             "Card_Affinity": "Discipline ",
@@ -1796,6 +1892,7 @@
         },
         {
             "id": 96,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline ",
@@ -1815,6 +1912,7 @@
         },
         {
             "id": 97,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense ",
             "Card_Affinity": "Brawn",
@@ -1834,6 +1932,7 @@
         },
         {
             "id": 98,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Brawn",
@@ -1851,6 +1950,7 @@
         },
         {
             "id": 99,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -1870,6 +1970,7 @@
         },
         {
             "id": 100,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -1888,6 +1989,7 @@
         },
         {
             "id": 101,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Discipline ",
@@ -1906,6 +2008,7 @@
         },
         {
             "id": 102,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense ",
             "Card_Affinity": "Brawn",
@@ -1924,6 +2027,7 @@
         },
         {
             "id": 103,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline",
@@ -1944,6 +2048,7 @@
         },
         {
             "id": 104,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline ",
@@ -1963,6 +2068,7 @@
         },
         {
             "id": 105,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -1982,6 +2088,7 @@
         },
         {
             "id": 106,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Reflex",
@@ -2000,6 +2107,7 @@
         },
         {
             "id": 107,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline",
@@ -2017,6 +2125,7 @@
         },
         {
             "id": 108,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline ",
@@ -2035,6 +2144,7 @@
         },
         {
             "id": 109,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -2053,6 +2163,7 @@
         },
         {
             "id": 110,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Brawn",
@@ -2071,6 +2182,7 @@
         },
         {
             "id": 111,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Discipline ",
@@ -2089,6 +2201,7 @@
         },
         {
             "id": 112,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility ",
             "Card_Affinity": "Reflex",
@@ -2108,6 +2221,7 @@
         },
         {
             "id": 113,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Reflex",
@@ -2127,6 +2241,7 @@
         },
         {
             "id": 114,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -2145,6 +2260,7 @@
         },
         {
             "id": 115,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility ",
             "Card_Affinity": "Reflex",
@@ -2162,6 +2278,7 @@
         },
         {
             "id": 116,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -2180,6 +2297,7 @@
         },
         {
             "id": 117,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -2198,6 +2316,7 @@
         },
         {
             "id": 118,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Reflex",
@@ -2218,6 +2337,7 @@
         },
         {
             "id": 119,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Fortune ",
@@ -2236,6 +2356,7 @@
         },
         {
             "id": 120,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -2255,6 +2376,7 @@
         },
         {
             "id": 121,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -2273,6 +2395,7 @@
         },
         {
             "id": 122,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Fortune",
@@ -2291,6 +2414,7 @@
         },
         {
             "id": 123,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense ",
             "Card_Affinity": "Brawn",
@@ -2309,6 +2433,7 @@
         },
         {
             "id": 124,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline ",
@@ -2327,6 +2452,7 @@
         },
         {
             "id": 125,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Reflex",
@@ -2346,6 +2472,7 @@
         },
         {
             "id": 126,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Brawn",
@@ -2365,6 +2492,7 @@
         },
         {
             "id": 127,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune",
@@ -2383,6 +2511,7 @@
         },
         {
             "id": 128,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Fortune",
@@ -2401,6 +2530,7 @@
         },
         {
             "id": 129,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Reflex",
@@ -2421,6 +2551,7 @@
         },
         {
             "id": 130,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Fortune ",
@@ -2440,6 +2571,7 @@
         },
         {
             "id": 131,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -2458,6 +2590,7 @@
         },
         {
             "id": 132,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline ",
@@ -2476,6 +2609,7 @@
         },
         {
             "id": 133,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Reflex",
@@ -2496,6 +2630,7 @@
         },
         {
             "id": 134,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Reflex",
@@ -2514,6 +2649,7 @@
         },
         {
             "id": 135,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -2532,6 +2668,7 @@
         },
         {
             "id": 136,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Brawn",
@@ -2552,6 +2689,7 @@
         },
         {
             "id": 137,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -2572,6 +2710,7 @@
         },
         {
             "id": 138,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -2590,6 +2729,7 @@
         },
         {
             "id": 139,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -2608,6 +2748,7 @@
         },
         {
             "id": 140,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense ",
             "Card_Affinity": "Brawn",
@@ -2626,6 +2767,7 @@
         },
         {
             "id": 141,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Mobility",
             "Card_Affinity": "Reflex",
@@ -2645,6 +2787,7 @@
         },
         {
             "id": 142,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Discipline ",
@@ -2662,6 +2805,7 @@
         },
         {
             "id": 143,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Fortune",
@@ -2681,6 +2825,7 @@
         },
         {
             "id": 144,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline ",
@@ -2699,6 +2844,7 @@
         },
         {
             "id": 145,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune ",
@@ -2717,6 +2863,7 @@
         },
         {
             "id": 146,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Discipline ",
@@ -2736,6 +2883,7 @@
         },
         {
             "id": 147,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense ",
             "Card_Affinity": "Brawn",
@@ -2754,6 +2902,7 @@
         },
         {
             "id": 148,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -2775,6 +2924,7 @@
         },
         {
             "id": 149,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Brawn",
@@ -2794,6 +2944,7 @@
         },
         {
             "id": 150,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Fortune ",
@@ -2813,6 +2964,7 @@
         },
         {
             "id": 151,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility",
             "Card_Affinity": "Reflex",
@@ -2830,6 +2982,7 @@
         },
         {
             "id": 152,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Discipline ",
@@ -2848,6 +3001,7 @@
         },
         {
             "id": 153,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Brawn",
@@ -2866,6 +3020,7 @@
         },
         {
             "id": 154,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Utility ",
             "Card_Affinity": "Discipline ",
@@ -2883,6 +3038,7 @@
         },
         {
             "id": 155,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense ",
             "Card_Affinity": "Brawn",
@@ -2901,6 +3057,7 @@
         },
         {
             "id": 156,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Offense",
             "Card_Affinity": "Reflex",
@@ -2920,6 +3077,7 @@
         },
         {
             "id": 157,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Brawn",
@@ -2939,6 +3097,7 @@
         },
         {
             "id": 158,
+            "flipped": false,
             "Deck_Category": "Campaign",
             "Type": "Defense",
             "Card_Affinity": "Fortune ",

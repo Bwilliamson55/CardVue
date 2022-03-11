@@ -10,14 +10,6 @@
   </TheNavigation>
 </template>
 
-<script>
+<script setup>
 import TheNavigation from '@/components/TheNavigation.vue'
-export default{
-  components: {TheNavigation},
-  setup() {
-    return {
-      
-      }
-    }
-}
 </script>

@@ -14,11 +14,11 @@
             <div>
               <DisclosureButton class="group text-gray-700 font-medium flex items-center">
                 <FilterIcon class="flex-none w-5 h-5 mr-2 text-gray-400 group-hover:text-gray-500" aria-hidden="true" />
-                {{ activeFilterCount }} Filters
+                {{ cardStore.activeFilterCount }} Filters
               </DisclosureButton>
             </div>
             <div class="pl-6">
-              <button type="button" class="text-gray-500" @click="clearAllFilters()">Clear all</button>
+              <button type="button" class="text-gray-500" @click="cardStore.clearAllFilters()">Clear all</button>
             </div>
           </div>
         </div>
@@ -28,20 +28,20 @@
               <fieldset>
                 <legend class="block font-medium">Team Effect?</legend>
                 <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
-                  <Multiselect v-model="gridFilters.teamEffect" :options="['Any', 'No', 'Yes']"
+                  <Multiselect v-model="cardStore.gridFilters.teamEffect" :options="['Any', 'No', 'Yes']"
                   placeholder="Choose" />
                 </div>
               </fieldset>
               <fieldset class="p-2">
                 <legend class="block font-medium">Copper Cost</legend>
                 <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
-                  <Slider v-model="gridFilters.costMinMax.value" v-bind="gridFilters.costMinMax" :min="0" :max="800" :step="25" />
+                  <Slider v-model="cardStore.gridFilters.costMinMax.value" v-bind="cardStore.gridFilters.costMinMax" :min="0" :max="800" :step="25" />
                 </div>
               </fieldset>
               <fieldset>
                 <legend class="block font-medium">Damage Type</legend>
                 <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
-                  <Multiselect v-model="gridFilters.damageType" :options="cardFilters.damageTypes" mode="tags"
+                  <Multiselect v-model="cardStore.gridFilters.damageType" :options="cardStore.cardFilters.damageTypes" mode="tags"
                   :close-on-select="false" :searchable="true" :create-option="false" :classes="{tagsSearch: 'absolute inset-0 border-0 outline-none focus:ring-0 appearance-none p-0 text-base font-sans box-border w-full'}"
                   placeholder="Choose Type(s)" />
                 </div>
@@ -49,7 +49,7 @@
               <fieldset>
                 <legend class="block font-medium">Effects</legend>
                 <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
-                  <Multiselect v-model="gridFilters.effects" :options="cardFilters.effects" mode="tags"
+                  <Multiselect v-model="cardStore.gridFilters.effects" :options="cardStore.cardFilters.effects" mode="tags"
                   :close-on-select="false" :searchable="true" :create-option="false" :classes="{tagsSearch: 'absolute inset-0 border-0 outline-none focus:ring-0 appearance-none p-0 text-base font-sans box-border w-full'}"
                   placeholder="Choose Effect(s)" />
                 </div>
@@ -61,7 +61,7 @@
               <fieldset>
                 <legend class="block font-medium">Supply Line</legend>
                 <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
-                  <Multiselect v-model="gridFilters.supplyLine" :options="cardFilters.supplyLines" mode="tags"
+                  <Multiselect v-model="cardStore.gridFilters.supplyLine" :options="cardStore.cardFilters.supplyLines" mode="tags"
                   :close-on-select="false" :searchable="true" :create-option="false" :classes="{tagsSearch: 'absolute inset-0 border-0 outline-none focus:ring-0 appearance-none p-0 text-base font-sans box-border w-full'}"
                   placeholder="Choose Line(s)" />
                 </div>
@@ -69,7 +69,7 @@
               <fieldset>
                 <legend class="block font-medium">Supply Track</legend>
                 <div class="pt-6 space-y-6 sm:pt-4 sm:space-y-4">
-                  <Multiselect v-model="gridFilters.supplyTrack" :options="cardFilters.supplyTracks" mode="tags"
+                  <Multiselect v-model="cardStore.gridFilters.supplyTrack" :options="cardStore.cardFilters.supplyTracks" mode="tags"
                   :close-on-select="false" :searchable="true" :create-option="false" :classes="{tagsSearch: 'absolute inset-0 border-0 outline-none focus:ring-0 appearance-none p-0 text-base font-sans box-border w-full'}"
                   placeholder="Choose Track(s)" />
                 </div>
@@ -78,8 +78,8 @@
             </div>
           </div>
         </DisclosurePanel>
-        <!-- sort -->
-        <div class="col-start-1 row-start-1 py-4">
+        <!-- sort  may use later -->
+        <!-- <div class="col-start-1 row-start-1 py-4">
           <div class="flex justify-end max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Menu as="div" class="relative inline-block">
               <div class="flex">
@@ -102,7 +102,7 @@
               </transition>
             </Menu>
           </div>
-        </div>
+        </div> -->
       </Disclosure>
 
       <!-- Product grid -->
@@ -114,12 +114,12 @@
             <h2 class="sr-only">Cards</h2>
             
             <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-                <a v-for="card in filteredCards" :key="card.id" class="group" >
+                <a v-for="card in cardStore.filteredCards" :key="card.id" class="group" >
                 <div class="w-full aspect-w-2 aspect-h-3 bg-gray-200 rounded-lg overflow-hidden">
                     <img :src="'/campaign cards/' + card.Image" :alt="card.Name" class="w-full h-full object-center object-cover group-hover:opacity-75"
-                      v-show="!cardsStorage[card.id].flipped" @click="cardsStorage[card.id].flipped = !cardsStorage[card.id].flipped"/>
+                      v-show="!cardStore.repo[card.id].flipped" @click="cardStore.repo[card.id].flipped = !cardStore.repo[card.id].flipped"/>
                     <div class="p-2 w-full h-full object-center object-cover group-hover:opacity-50"
-                      v-show="cardsStorage[card.id].flipped" @click="cardsStorage[card.id].flipped = !cardsStorage[card.id].flipped">
+                      v-show="cardStore.repo[card.id].flipped" @click="cardStore.repo[card.id].flipped = !cardStore.repo[card.id].flipped">
                       <p class="text-gray-900 group-hover:text-gray-700">Type: {{ card.Type || 'N/A' }}</p>
                       <p class="text-gray-900 group-hover:text-gray-700">Affinity: {{ card.Card_Affinity || 'N/A' }}</p>
                       <p class="text-gray-900 group-hover:text-gray-700">Team Effect?: {{ card.Team_Effect || 'N/A' }}</p>
@@ -142,11 +142,8 @@
   </div>
 </template>
 
-<script>
-import {ref} from 'vue'
+<script setup>
 import {
-  Dialog,
-  DialogOverlay,
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
@@ -154,193 +151,13 @@ import {
   MenuButton,
   MenuItem,
   MenuItems,
-  Popover,
-  PopoverButton,
-  PopoverGroup,
-  PopoverPanel,
-  Tab,
-  TabGroup,
-  TabList,
-  TabPanel,
-  TabPanels,
-  TransitionChild,
-  TransitionRoot,
 } from '@headlessui/vue'
-import {MenuIcon, SearchIcon, ShoppingBagIcon, UserIcon, XIcon} from '@heroicons/vue/outline'
-import {ChevronDownIcon, FilterIcon, StarIcon} from '@heroicons/vue/solid'
-import Storage from 'vue-ls'
-import cardsDataSeed from "@/CardsSeed.json"
+import {FilterIcon} from '@heroicons/vue/solid'
 import Multiselect from '@vueform/multiselect'
 import Slider from '@vueform/slider'
+import { useCardsStore } from "@/stores/cards"
 
-const sortOptions = [
-  { name: 'Most Popular', href: '#', current: true },
-  { name: 'Best Rating', href: '#', current: false },
-  { name: 'Newest', href: '#', current: false },
-  { name: 'Price: Low to High', href: '#', current: false },
-  { name: 'Price: High to Low', href: '#', current: false },
-]
-
-export default {
-  components: {
-    Dialog,
-    DialogOverlay,
-    Disclosure,
-    DisclosureButton,
-    DisclosurePanel,
-    Menu,
-    MenuButton,
-    MenuItem,
-    MenuItems,
-    Multiselect,
-    Popover,
-    PopoverButton,
-    PopoverGroup,
-    PopoverPanel,
-    Tab,
-    TabGroup,
-    TabList,
-    TabPanel,
-    TabPanels,
-    TransitionChild,
-    TransitionRoot,
-    ChevronDownIcon,
-    FilterIcon,
-    MenuIcon,
-    SearchIcon,
-    ShoppingBagIcon,
-    Slider,
-    StarIcon,
-    UserIcon,
-    XIcon,
-  },
-  setup() {
-    const open = ref(false);
-    const value = ref([])
-    const gridFilters = ref(
-      {
-        teamEffect:'',
-        costMinMax: {
-          value: [0, 800],
-          tooltipPosition: 'bottom',
-          orientation: 'horizontal'
-          },
-        supplyLine:[],
-        supplyTrack:[],
-        damageType:[],
-        effects:[]
-      }
-    )
-    const soptions = {
-      namespace: 'vue_',
-      name: 'ls',
-      storage: 'local'
-    }
-    let cardsStorage = []
-    const { ls } = Storage.useStorage(soptions)
-    ls.set("cardsStorage", cardsDataSeed.Cards)
-    cardsStorage = ls.get('cardsStorage')
-    cardsStorage.forEach((o, i) => { cardsStorage[i]['flipped'] = false })
-    cardsStorage = ref(cardsStorage)
-    return {
-      sortOptions,
-      open,
-      cardsStorage,
-      gridFilters,
-      value
-    }
-  },
-    computed: {
-            filteredCards: function(){
-                return this.filterCardsByRange(
-                    this.filterCardsByEffect(
-                        this.filterCardsByDamageType(
-                            this.filterCardsBySupplyLine(
-                                this.filterCardsBySupplyTrack(
-                                    this.filterCardsByTeamEffect(this.cardsStorage)
-                                )
-                            )
-                        )
-                    )
-                )
-            },
-            activeFilterCount: function() {
-              let count = 0 //excluding cost range
-              let filtList = ['damageType', 'effects', 'supplyLine', 'supplyTrack', 'teamEffect']
-              filtList.forEach((fname) => { (this.gridFilters[fname].length > 0 && this.gridFilters[fname] != "") ? count++ : ''})
-              return count
-            },
-            cardEffectsList: function(){
-              let effects = []
-              this.cardsStorage.forEach(card => {
-                effects.push(Object.keys(card.Effects))
-              })
-                let uniqueEffects = effects.flat(Infinity).filter((x, i, a) => a.indexOf(x) === i)
-                uniqueEffects.sort()
-              return uniqueEffects.reduce((obj, cur) => ({...obj, [cur]: cur.replaceAll('_', ' ')}), {})
-            },
-            cardFilters: function() {
-              return {
-                effects: this.cardEffectsList,
-                supplyLines: this.getUniqueValues(this.cardsStorage, 'Supply_Line').sort(),
-                supplyTracks: this.getUniqueValues(this.cardsStorage, 'Supply_Track').sort(),
-                damageTypes: this.getUniqueValues(this.cardsStorage, 'Damage_Type').sort()
-              }
-            },
-        },
-    methods: {
-        clearAllFilters() {
-          this.gridFilters = 
-            {
-              teamEffect:'Any',
-              costMinMax: {
-                value: [0, 800],
-                tooltipPosition: 'bottom',
-                orientation: 'horizontal'
-                },
-              supplyLine:[],
-              supplyTrack:[],
-              damageType:[],
-              effects:[]
-            }
-        },
-        getUniqueValues(arrayOfObjects, key) {
-          let array = []
-          arrayOfObjects.forEach(obj => {
-            array.push(obj[key])
-          })
-          return array.flat(Infinity).filter((x, i, a) => a.indexOf(x) === i)
-        },
-        filterCardsByTeamEffect(Cards){
-            return Cards.filter(card => ((card.Team_Effect === this.gridFilters.teamEffect)
-                || this.gridFilters.teamEffect === "Any" || this.gridFilters.teamEffect.length <= 0))
-        },
-        filterCardsByRange(Cards){
-            return Cards.filter(card =>
-              ((card.Copper_Cost >= this.gridFilters.costMinMax.value[0] &&
-                card.Copper_Cost <= this.gridFilters.costMinMax.value[1])
-                || !('Copper_Cost' in card))
-            )
-        },
-        filterCardsBySupplyLine(Cards){
-            return Cards.filter(card => (this.gridFilters.supplyLine.includes(card.Supply_Line)
-                || this.gridFilters.supplyLine.length <= 0))
-        },
-        filterCardsBySupplyTrack(Cards){
-            return Cards.filter(card => (this.gridFilters.supplyTrack.includes(card.Supply_Track)
-                || this.gridFilters.supplyTrack.length <= 0))
-        },
-        filterCardsByDamageType(Cards){
-            if (this.gridFilters.damageType.length <= 0){return Cards} 
-            return Cards.filter(card => (this.gridFilters.damageType.includes(card.Damage_Type)
-                || this.gridFilters.damageType.length <= 0))
-        },
-        filterCardsByEffect(Cards){
-            if (this.gridFilters.effects.length <= 0){return Cards} 
-            return Cards.filter(card => this.gridFilters.effects.find(el => el in card.Effects))
-        }
-    },
-}
+const cardStore = useCardsStore();
 </script>
 <style src="@vueform/multiselect/themes/default.css"></style>
 <style src="@vueform/slider/themes/default.css"></style>

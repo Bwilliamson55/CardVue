@@ -196,6 +196,9 @@
                   placeholder="Search"
                   type="search"
                   name="search"
+                  v-model="cardStore.theSearch"
+                  @submit.prevent
+                  @keydown.enter="$event.preventDefault()"
                 />
               </div>
             </form>
@@ -318,7 +321,7 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref } from "vue";
 import {
   Dialog,
@@ -342,7 +345,11 @@ import {
   XIcon,
 } from "@heroicons/vue/outline";
 import { SearchIcon } from "@heroicons/vue/solid";
+import { useCardsStore } from "@/stores/cards"
 
+const cardStore = useCardsStore();
+
+const sidebarOpen = ref(false)
 const navigation = [
   { name: "Dashboard", href: "/", icon: HomeIcon, current: true },
   { name: "Cards", href: "/cards", icon: CollectionIcon, current: false },
@@ -355,36 +362,4 @@ const userNavigation = [
   { name: "Settings", href: "#" },
   { name: "Sign out", href: "#" },
 ];
-
-export default {
-  inheritAttrs: false,
-  components: {
-    Dialog,
-    DialogOverlay,
-    Menu,
-    MenuButton,
-    MenuItem,
-    MenuItems,
-    TransitionChild,
-    TransitionRoot,
-    AdjustmentsIcon,
-    BellIcon,
-    CollectionIcon,
-    MenuAlt2Icon,
-    PresentationChartBarIcon,
-    SearchIcon,
-    TableIcon,
-    UsersIcon,
-    XIcon,
-  },
-  setup() {
-    const sidebarOpen = ref(false);
-
-    return {
-      sidebarOpen,
-      navigation,
-      userNavigation,
-    };
-  },
-};
 </script>

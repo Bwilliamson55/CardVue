@@ -14,7 +14,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": "When you stow your weapon, it reloads.",
+            "Effect Description": "When you stow your weapon, it reloads.",
             "Effects": {
                 "Qualitative": "Admin Reload"
             }
@@ -33,7 +33,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": "When you kill an enemy, gain 7 Stamina over 7 seconds, stacking up to 5 times.",
+            "Effect Description": "When you kill an enemy, gain 7 Stamina over 7 seconds, stacking up to 5 times.",
             "Effects": {
                 "Qualitative": "1 Stam/s x 7s Per Kill - 5 stacks max"
             }
@@ -52,7 +52,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +50% Ammo Capacity, +15% Reload Speed",
+            "Effect Description": " +50% Ammo Capacity, +15% Reload Speed",
             "Effects": {
                 "Reload_Speed": "0.15",
                 "Ammo_Capacity": "0.5"
@@ -72,7 +72,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +10% Team Ammo Capacity, +1% Team Damage",
+            "Effect Description": " +10% Team Ammo Capacity, +1% Team Damage",
             "Effects": {
                 "Team_Damage": "0.01",
                 "Team_Ammo_Capacity": "0.1"
@@ -92,7 +92,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": " +75% Ammo Capacity, -5% Move Speed",
+            "Effect Description": " +75% Ammo Capacity, -5% Move Speed",
             "Effects": {
                 "Ammo_Capacity": "0.75",
                 "Move_Speed": "-0.05"
@@ -112,7 +112,7 @@
             "Supply_Track": "The Strip",
             "Position_In_Track": "0",
             "Damage_Type": "-",
-            "Effect Description ": " +25% Ammo Capacity, +2.5% Bullet Damage",
+            "Effect Description": " +25% Ammo Capacity, +2.5% Bullet Damage",
             "Effects": {
                 "Bullet_Damage": "0.025",
                 "Ammo_Capacity": "0.25"
@@ -131,7 +131,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": "You can sense Nearby Ammo, More ammo spawns",
+            "Effect Description": "You can sense Nearby Ammo, More ammo spawns",
             "Effects": {
                 "Qualitative": "Ammo Scavenger"
             }
@@ -150,7 +150,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": "Your secondary weapons have Unlimited Ammo. Your secondary weapons reload 20% Slower",
+            "Effect Description": "Your secondary weapons have Unlimited Ammo. Your secondary weapons reload 20% Slower",
             "Effects": {
                 "Qualitative": "Ammo Stash"
             }
@@ -169,7 +169,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": "When a horde is triggered, your team gains 25 Temporary Health.",
+            "Effect Description": "When a horde is triggered, your team gains 25 Temporary Health.",
             "Effects": {
                 "Qualitative": "When a horde is triggered",
                 "Team_Temporary_Health": "25"
@@ -189,7 +189,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": " +25% Healing Efficiency, When you use a medical Accessory, the target gains 10 Temporary Health.",
+            "Effect Description": " +25% Healing Efficiency, When you use a medical Accessory, the target gains 10 Temporary Health.",
             "Effects": {
                 "Qualitative": "When you use a medical Accessory, the target gains 10 Temporary Health",
                 "Healing_Efficiency": "0.25"
@@ -209,7 +209,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "3",
             "Damage_Type": "Flat",
-            "Effect Description ": "When you or a teammate becomes incapacitated, all teammates gain 30% Damage, 20% Reload Speed, and Unlimited Ammo for 10 Seconds.",
+            "Effect Description": "When you or a teammate becomes incapacitated, all teammates gain 30% Damage, 20% Reload Speed, and Unlimited Ammo for 10 Seconds.",
             "Effects": {
                 "Qualitative": "When you or a teammate becomes incapacitated, for 10 seconds all teammates gain",
                 "Reload_Speed": "0.2",
@@ -231,7 +231,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "3",
             "Damage_Type": "Melee",
-            "Effect Description ": " +40% Melee Damage, +5 Health",
+            "Effect Description": " +40% Melee Damage, +5 Health",
             "Effects": {
                 "Melee_Damage": "0.4",
                 "Health": "5"
@@ -251,7 +251,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": "Melee Kills heal 2 health",
+            "Effect Description": "Melee Kills heal 2 health",
             "Effects": {
                 "Qualitative": "Melee Kills heal 2 health"
             }
@@ -270,7 +270,7 @@
             "Supply_Track": "Liberators",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +1 Quick Item Inventory, +10% Use Speed",
+            "Effect Description": " +1 Quick Item Inventory, +10% Use Speed",
             "Effects": {
                 "Use_Speed": "0.1",
                 "Quick_Item_Inventory": "1"
@@ -290,7 +290,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "Melee",
-            "Effect Description ": "Gain 10% Melee Damage. 10% Melee Speed, and 5% Move Speed for each Melee kill in the last 4 Seconds.",
+            "Effect Description": "Gain 10% Melee Damage. 10% Melee Speed, and 5% Move Speed for each Melee kill in the last 4 Seconds.",
             "Effects": {
                 "Qualitative": "For every melee kill in the last 4s",
                 "Melee_Speed": "0.1",
@@ -312,7 +312,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "3",
             "Damage_Type": "-",
-            "Effect Description ": " +20% Trauma Resistance",
+            "Effect Description": " +20% Trauma Resistance",
             "Effects": {
                 "Trauma_Resistance": "0.2"
             }
@@ -331,7 +331,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "8",
             "Damage_Type": "Explosive",
-            "Effect Description ": " +100% Explosive Damage, +35% Explosive Resistance",
+            "Effect Description": " +100% Explosive Damage, +35% Explosive Resistance",
             "Effects": {
                 "Explosive_Damage": "0.999",
                 "Explosive_Resistance": "0.35"
@@ -351,7 +351,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": "When you kill a Mutation, gain 10 Copper (Up to 300 per Level).",
+            "Effect Description": "When you kill a Mutation, gain 10 Copper (Up to 300 per Level).",
             "Effects": {
                 "Qualitative": "When you kill a Mutation, gain 10 Copper (Up to 300 per Level)."
             }
@@ -370,7 +370,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": " -10% Health, +1 Team Support Inventory",
+            "Effect Description": " -10% Health, +1 Team Support Inventory",
             "Effects": {
                 "Health": "-0.1",
                 "Team_Support_Inventory": "1"
@@ -390,7 +390,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": " +20% Melee Stamina Efficiency, +30% Melee Attack speed, -5% Damage Resistance",
+            "Effect Description": " +20% Melee Stamina Efficiency, +30% Melee Attack speed, -5% Damage Resistance",
             "Effects": {
                 "Melee_Speed": "0.3",
                 "Damage_Resistance": "-0.05",
@@ -411,7 +411,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "3",
             "Damage_Type": "-",
-            "Effect Description ": "Breakout: Hold [E/SQUARE/X] to free yourself from Grabs. +50% Breakout Cooldown Reduction (Base 60 seconds). 3 Seconds to release",
+            "Effect Description": "Breakout: Hold [E/SQUARE/X] to free yourself from Grabs. +50% Breakout Cooldown Reduction (Base 60 seconds). 3 Seconds to release",
             "Effects": {
                 "Qualitative": "Breakout: Hold [E/SQUARE/X] to free yourself from Grabs. +50% Breakout Cooldown Reduction (Base 60 seconds). 3 Seconds to release"
             }
@@ -429,7 +429,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": "Precision Kills have a 20% chance to cause Ridden to explode, dealing 15 damage to other Ridden with 4 meters.",
+            "Effect Description": "Precision Kills have a 20% chance to cause Ridden to explode, dealing 15 damage to other Ridden with 4 meters.",
             "Effects": {
                 "Qualitative": "Precision Kills have a 20% chance to cause Ridden to explode, dealing 15 damage to other Ridden with 4 meters."
             }
@@ -448,7 +448,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": "When using Shotguns, gain 0.25 Temporary Health for each pellet that hits.",
+            "Effect Description": "When using Shotguns, gain 0.25 Temporary Health for each pellet that hits.",
             "Effects": {
                 "Qualitative": "When using Shotguns, gain 0.25 Temporary Health for each pellet that hits."
             }
@@ -466,7 +466,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": " +40 Health, -30% Stamina",
+            "Effect Description": " +40 Health, -30% Stamina",
             "Effects": {
                 "Stamina": "-0.3",
                 "Health": "40"
@@ -486,7 +486,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": "Healing a teammate also applies 50% of the effect to you.",
+            "Effect Description": "Healing a teammate also applies 50% of the effect to you.",
             "Effects": {
                 "Qualitative": "Healing a teammate also applies 50% of the effect to you."
             }
@@ -504,7 +504,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "7",
             "Damage_Type": "Flat",
-            "Effect Description ": "Pain meds you apply also grant +25% Damage for 60 Seconds.",
+            "Effect Description": "Pain meds you apply also grant +25% Damage for 60 Seconds.",
             "Effects": {
                 "Qualitative": "Pain meds you apply also grant +25% Damage for 60 Seconds."
             }
@@ -523,7 +523,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": " +75% Weapon Swap Speed, When you take Damage your Accuracy is reduced by 20% for 3 Seconds.",
+            "Effect Description": " +75% Weapon Swap Speed, When you take Damage your Accuracy is reduced by 20% for 3 Seconds.",
             "Effects": {
                 "Qualitative": "When you take Damage your Accuracy is reduced by 20% for 3 Seconds.",
                 "Weapon_Swap_Speed": "0.75"
@@ -543,7 +543,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "9",
             "Damage_Type": "-",
-            "Effect Description ": " +15% Reload Speed, +25% Aim Speed, +25% Weapon Swap Speed, +25% Use Speed",
+            "Effect Description": " +15% Reload Speed, +25% Aim Speed, +25% Weapon Swap Speed, +25% Use Speed",
             "Effects": {
                 "Reload_Speed": "0.15",
                 "Aim_Speed": "0.25",
@@ -565,7 +565,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": "Turns your Bash into a Knife that counts as a Melee weapon.",
+            "Effect Description": "Turns your Bash into a Knife that counts as a Melee weapon.",
             "Effects": {
                 "Qualitative": "Turns your Bash into a Knife that counts as a Melee weapon."
             }
@@ -584,7 +584,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": " +50% Use Speed, Heals teammates for an additional 20 when you revive them.",
+            "Effect Description": " +50% Use Speed, Heals teammates for an additional 20 when you revive them.",
             "Effects": {
                 "Qualitative": "Heals teammates for an additional 20 when you revive them.",
                 "Use_Speed": "0.5"
@@ -604,7 +604,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "1",
             "Damage_Type": "Bullet",
-            "Effect Description ": " +5% Bullet Damage, +1 Bullet Stumble Damage, +5 Melee Stumble Damage",
+            "Effect Description": " +5% Bullet Damage, +1 Bullet Stumble Damage, +5 Melee Stumble Damage",
             "Effects": {
                 "Melee_Stumble_Damage": "5",
                 "Bullet_Stumble_Damage": "1",
@@ -624,7 +624,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": "Each Cleaner gains 5% of thier total Copper in each Saferoom.",
+            "Effect Description": "Each Cleaner gains 5% of thier total Copper in each Saferoom.",
             "Effects": {
                 "Qualitative": "Each Cleaner gains 5% of thier total Copper in each Saferoom."
             }
@@ -643,7 +643,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "Mutation",
-            "Effect Description ": "When you or your team kills a mutation gain 1% damage (up to 15%) until the end of the level. Only Card holder obtains damage increase",
+            "Effect Description": "When you or your team kills a mutation gain 1% damage (up to 15%) until the end of the level. Only Card holder obtains damage increase",
             "Effects": {
                 "Qualitative": "When you or your team kills a mutation gain 1% damage (up to 15%) until the end of the level. Only Card holder obtains damage increase"
             }
@@ -662,7 +662,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": " +40% Movement Speed while aiming down sights with Sniper Rifles.",
+            "Effect Description": " +40% Movement Speed while aiming down sights with Sniper Rifles.",
             "Effects": {
                 "Qualitative": " +40% Movement Speed while aiming down sights with Sniper Rifles."
             }
@@ -680,7 +680,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": "You can sense Nearby Copper, More copper piles spawn",
+            "Effect Description": "You can sense Nearby Copper, More copper piles spawn",
             "Effects": {
                 "Qualitative": "You can sense Nearby Copper, More copper piles spawn"
             }
@@ -699,7 +699,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +20% Stamina, +20% Stamina Regen, +3% Move Speed, +5 Health",
+            "Effect Description": " +20% Stamina, +20% Stamina Regen, +3% Move Speed, +5 Health",
             "Effects": {
                 "Stamina_Regen": "0.2",
                 "Stamina": "0.2",
@@ -721,7 +721,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": " +5% Move Speed",
+            "Effect Description": " +5% Move Speed",
             "Effects": {
                 "Move_Speed": "0.05"
             }
@@ -740,7 +740,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": "When you take a hit for 10 or more damage. Gain 25% Damage Resistance for 3 seconds.",
+            "Effect Description": "When you take a hit for 10 or more damage. Gain 25% Damage Resistance for 3 seconds.",
             "Effects": {
                 "Qualitative": "When you take a hit for 10 or more damage. Gain 25% Damage Resistance for 3 seconds."
             }
@@ -759,7 +759,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "4",
             "Damage_Type": "Accessory",
-            "Effect Description ": " +50% Accessory Damage, -15% Ammo Capacity ",
+            "Effect Description": " +50% Accessory Damage, -15% Ammo Capacity ",
             "Effects": {
                 "Accessory_Damage": "0.5",
                 "Ammo_Capacity": "-0.15"
@@ -779,7 +779,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": " +2 Offensive Inventory, -5% Move Speed",
+            "Effect Description": " +2 Offensive Inventory, -5% Move Speed",
             "Effects": {
                 "Melee_Speed": "-0.05",
                 "Offensive_Inventory": "2"
@@ -799,7 +799,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": "While Crouching you neither take nor deal Friendly Fire damage. +10 Health",
+            "Effect Description": "While Crouching you neither take nor deal Friendly Fire damage. +10 Health",
             "Effects": {
                 "Qualitative": "While Crouching you neither take nor deal Friendly Fire damage",
                 "Health": "10"
@@ -819,7 +819,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +15% Trauma Resistance  +5 Health",
+            "Effect Description": " +15% Trauma Resistance  +5 Health",
             "Effects": {
                 "Health": "5",
                 "Trauma_Resistance": "0.15"
@@ -839,7 +839,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +50% Healing Efficiency",
+            "Effect Description": " +50% Healing Efficiency",
             "Effects": {
                 "Healing_Efficiency": "0.5"
             }
@@ -858,7 +858,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": " +30% Stamina Regeneration, +5 Health",
+            "Effect Description": " +30% Stamina Regeneration, +5 Health",
             "Effects": {
                 "Stamina_Regen": "0.3",
                 "Health": "5"
@@ -877,7 +877,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": " +15% Stamina, +25% Weapon Swap Speed, +15% Move Speed while firing, +10% Slow Resistance",
+            "Effect Description": " +15% Stamina, +25% Weapon Swap Speed, +15% Move Speed while firing, +10% Slow Resistance",
             "Effects": {
                 "Weapon_Swap_Speed": "0.25",
                 "Stamina": "0.15",
@@ -899,7 +899,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": "When you use a Medical Accessory, the target gains +10% Maximum Health, Stamina, and Stamina Regen until the end of the level.",
+            "Effect Description": "When you use a Medical Accessory, the target gains +10% Maximum Health, Stamina, and Stamina Regen until the end of the level.",
             "Effects": {
                 "Qualitative": "When you use a Medical Accessory, the target gains +10% Maximum Health, Stamina, and Stamina Regen until the end of the level.",
                 "Stamina_Regen": "0.1",
@@ -921,7 +921,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": "Gain 2 Temporary Health whenever you kill a Ridden within 2.5 meters.",
+            "Effect Description": "Gain 2 Temporary Health whenever you kill a Ridden within 2.5 meters.",
             "Effects": {
                 "Qualitative": "Gain 2 Temporary Health whenever you kill a Ridden within 2.5 meters."
             }
@@ -940,7 +940,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": " +1 Support Inventory, +15% Trauma Resistance",
+            "Effect Description": " +1 Support Inventory, +15% Trauma Resistance",
             "Effects": {
                 "Trauma_Resistance": "0.15",
                 "Support_Inventory": "1"
@@ -960,7 +960,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": "When you use a Medical Accessory, it also restores 3 Trauma to the target.",
+            "Effect Description": "When you use a Medical Accessory, it also restores 3 Trauma to the target.",
             "Effects": {
                 "Qualitative": "When you use a Medical Accessory, it also restores 3 Trauma to the target."
             }
@@ -979,7 +979,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": "When you throw an Offensive Accessory, Gain 20 Temporary Health and 20% Move speed for 5 Seconds.",
+            "Effect Description": "When you throw an Offensive Accessory, Gain 20 Temporary Health and 20% Move speed for 5 Seconds.",
             "Effects": {
                 "Qualitative": "When you throw an Offensive Accessory, Gain 20 Temporary Health and 20% Move speed for 5 Seconds."
             }
@@ -998,7 +998,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "3",
             "Damage_Type": "-",
-            "Effect Description ": " +8% Move Speed, -7% Damage Resistance",
+            "Effect Description": " +8% Move Speed, -7% Damage Resistance",
             "Effects": {
                 "Move_Speed": "0.08",
                 "Damage_Resistance": "-0.07"
@@ -1018,7 +1018,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "3",
             "Damage_Type": "-",
-            "Effect Description ": "At the start of each level, heal 15 Trauma Damage, the restore any missing Health.",
+            "Effect Description": "At the start of each level, heal 15 Trauma Damage, the restore any missing Health.",
             "Effects": {
                 "Qualitative": "At the start of each level, heal 15 Trauma Damage, the restore any missing Health."
             }
@@ -1037,7 +1037,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +20% Accuracy, +10% Weakspot Damage, +15% Aim Speed",
+            "Effect Description": " +20% Accuracy, +10% Weakspot Damage, +15% Aim Speed",
             "Effects": {
                 "Aim_Speed": "0.15",
                 "Weakspot_Damage": "0.1"
@@ -1056,7 +1056,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "7",
             "Damage_Type": "Flat",
-            "Effect Description ": " +25% Damage, -30 Health ",
+            "Effect Description": " +25% Damage, -30 Health ",
             "Effects": {
                 "Damage": "0.25",
                 "Health": "-30"
@@ -1076,7 +1076,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +1 Offensive Inventory, +25% Swap Speed",
+            "Effect Description": " +1 Offensive Inventory, +25% Swap Speed",
             "Effects": {
                 "Weapon_Swap_Speed": "0.25",
                 "Offensive_Inventory": "1"
@@ -1096,7 +1096,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "3",
             "Damage_Type": "Accessory",
-            "Effect Description ": " +25% Accessory Damage",
+            "Effect Description": " +25% Accessory Damage",
             "Effects": {
                 "Accessory_Damage": "0.25"
             }
@@ -1115,7 +1115,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "7",
             "Damage_Type": "-",
-            "Effect Description ": "When you use a Medical Accessory, all teammates heal for 8 Health.",
+            "Effect Description": "When you use a Medical Accessory, all teammates heal for 8 Health.",
             "Effects": {
                 "Qualitative": "When you use a Medical Accessory, all teammates heal for 8 Health."
             }
@@ -1134,7 +1134,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": " +50% Weapon Swap Speed, -5% Damage Resistance ",
+            "Effect Description": " +50% Weapon Swap Speed, -5% Damage Resistance ",
             "Effects": {
                 "Weapon_Swap_Speed": "0.5",
                 "Damage_Resistance": "-0.05"
@@ -1154,7 +1154,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "13",
             "Damage_Type": "-",
-            "Effect Description ": "Gain 250 Bonus Copper at the start of Each level.",
+            "Effect Description": "Gain 250 Bonus Copper at the start of Each level.",
             "Effects": {
                 "Qualitative": "Gain 250 Bonus Copper at the start of Each level."
             }
@@ -1173,7 +1173,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": " +125% Use Speed. When you take Damage, you have a chance to be Blinded for 1 Second.",
+            "Effect Description": " +125% Use Speed. When you take Damage, you have a chance to be Blinded for 1 Second.",
             "Effects": {
                 "Qualitative": "When you take Damage, you have a chance to be Blinded for 1 Second.",
                 "Use_Speed": "1.25"
@@ -1193,7 +1193,7 @@
             "Supply_Track": "The Strip",
             "Position_In_Track": "0",
             "Damage_Type": "Melee",
-            "Effect Description ": "Charge: Hold [LEFTCLICK/R2/RT] with Melee weapon to burst forward. Charge attacks deal 100% increased damage",
+            "Effect Description": "Charge: Hold [LEFTCLICK/R2/RT] with Melee weapon to burst forward. Charge attacks deal 100% increased damage",
             "Effects": {
                 "Qualitative": "Charge: Hold [LEFTCLICK/R2/RT] with Melee weapon to burst forward. Charge attacks deal 100% increased damage"
             }
@@ -1212,7 +1212,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "8",
             "Damage_Type": "Stumble",
-            "Effect Description ": "Melee hits against Weakspots deal +20 Additional Stumble Damage",
+            "Effect Description": "Melee hits against Weakspots deal +20 Additional Stumble Damage",
             "Effects": {
                 "Qualitative": "Melee hits against Weakspots deal +20 Additional Stumble Damage"
             }
@@ -1231,7 +1231,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "11",
             "Damage_Type": "-",
-            "Effect Description ": " +45% Movement Speed while firing. +3% Move Speed while not firing.",
+            "Effect Description": " +45% Movement Speed while firing. +3% Move Speed while not firing.",
             "Effects": {
                 "Move_Speed_While_Firing": "0.45",
                 "Move_Speed_While_not_Firing": "0.03"
@@ -1251,7 +1251,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +30% Aim Speed",
+            "Effect Description": " +30% Aim Speed",
             "Effects": {
                 "Aim_Speed": "0.3"
             }
@@ -1270,7 +1270,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": "Kills with Secondary guns have a 3% chance to spawn ammo or a Molotov.",
+            "Effect Description": "Kills with Secondary guns have a 3% chance to spawn ammo or a Molotov.",
             "Effects": {
                 "Qualitative": "Kills with Secondary guns have a 3% chance to spawn ammo or a Molotov."
             }
@@ -1289,7 +1289,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "7",
             "Damage_Type": "-",
-            "Effect Description ": "While Crouching, gain 10% Damage Resistance and 40% Accuracy",
+            "Effect Description": "While Crouching, gain 10% Damage Resistance and 40% Accuracy",
             "Effects": {
                 "Qualitative": "While Crouching",
                 "Accuracy": "0.4",
@@ -1310,7 +1310,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": " +25 Health, -15% Ammo Capacity",
+            "Effect Description": " +25 Health, -15% Ammo Capacity",
             "Effects": {
                 "Health": "25",
                 "Ammo_Capacity": "-0.15"
@@ -1330,7 +1330,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "9",
             "Damage_Type": "Weakpoint",
-            "Effect Description ": " +50% Weakspot Damage, -40% Move Speed while shooting or melee attacking.",
+            "Effect Description": " +50% Weakspot Damage, -40% Move Speed while shooting or melee attacking.",
             "Effects": {
                 "Weakspot_Damage": "0.5",
                 "Move_Speed_While_Firing_or_Melee_attacking": "-0.4"
@@ -1350,7 +1350,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "8",
             "Damage_Type": "Ignore the Pain",
-            "Effect Description ": " +20% Melee Damage against Mutations. When you deal Melee damage to a Mutation heal 1 Health and recover 3 Stamina.",
+            "Effect Description": " +20% Melee Damage against Mutations. When you deal Melee damage to a Mutation heal 1 Health and recover 3 Stamina.",
             "Effects": {
                 "Qualitative": " +20% Melee Damage against Mutations. When you deal Melee damage to a Mutation heal 1 Health and recover 3 Stamina."
             }
@@ -1369,7 +1369,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "9",
             "Damage_Type": "Accessory",
-            "Effect Description ": " +75% Accessory Damage, -25% Swap Speed",
+            "Effect Description": " +75% Accessory Damage, -25% Swap Speed",
             "Effects": {
                 "Weapon_Swap_Speed": "-0.25",
                 "Accessory_Damage": "0.75"
@@ -1389,7 +1389,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": "Precision Kills grant 5% Reload Speed for 5 Seconds (stacking up to 10 times).",
+            "Effect Description": "Precision Kills grant 5% Reload Speed for 5 Seconds (stacking up to 10 times).",
             "Effects": {
                 "Qualitative": "Precision Kills have a 20% chance to cause Ridden to explode, dealing 15 damage to other Ridden with 4 meters."
             }
@@ -1408,7 +1408,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": "When you or a teammate becomes incapacitated, All teammates heal for 20 Health over 15 Seconds.",
+            "Effect Description": "When you or a teammate becomes incapacitated, All teammates heal for 20 Health over 15 Seconds.",
             "Effects": {
                 "Qualitative": "When you or a teammate becomes incapacitated, All teammates heal for 20 Health over 15 Seconds."
             }
@@ -1427,7 +1427,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "9",
             "Damage_Type": "Weakpoint",
-            "Effect Description ": " +30% Weakspot Damage. DISABLES: Aim Down Sights",
+            "Effect Description": " +30% Weakspot Damage. DISABLES: Aim Down Sights",
             "Effects": {
                 "Weakspot_Damage": "0.3",
                 "No_ADS": "1"
@@ -1447,7 +1447,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "9",
             "Damage_Type": "Weakpoint",
-            "Effect Description ": " +10% Weakspot Damage, Allows Player to see values for damage they deal and enemy health bars.",
+            "Effect Description": " +10% Weakspot Damage, Allows Player to see values for damage they deal and enemy health bars.",
             "Effects": {
                 "Qualitative": "Allows Player to see values for damage they deal and enemy health bars.",
                 "Weakspot_Damage": "0.1"
@@ -1467,7 +1467,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "2",
             "Damage_Type": "Bullet",
-            "Effect Description ": " +7.5% Bullet Damage, +200% Bullet Penetration",
+            "Effect Description": " +7.5% Bullet Damage, +200% Bullet Penetration",
             "Effects": {
                 "Damage": "0.075",
                 "Bullet_Penetration": "2"
@@ -1487,7 +1487,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "7",
             "Damage_Type": "-",
-            "Effect Description ": " +1 Extra Life, +15% Reduced Incap Trauma",
+            "Effect Description": " +1 Extra Life, +15% Reduced Incap Trauma",
             "Effects": {
                 "Qualitative": "+15% Reduced Incap Trauma",
                 "Extra_Life": "1"
@@ -1507,7 +1507,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "9",
             "Damage_Type": "-",
-            "Effect Description ": " +10% Effective Bullet Range, +15% Recoil Control, +25% Bullet Penetration, +25% Aim Speed",
+            "Effect Description": " +10% Effective Bullet Range, +15% Recoil Control, +25% Bullet Penetration, +25% Aim Speed",
             "Effects": {
                 "Aim_Speed": "0.25",
                 "Bullet_Penetration": "0.25",
@@ -1528,7 +1528,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": "Whenever your team loots Copper, you have a 35% chance to find 35% additional Copper",
+            "Effect Description": "Whenever your team loots Copper, you have a 35% chance to find 35% additional Copper",
             "Effects": {
                 "Qualitative": "Whenever your team loots Copper, you have a 35% chance to find 35% additional Copper"
             }
@@ -1547,7 +1547,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "12",
             "Damage_Type": "-",
-            "Effect Description ": " +20% Sprint Speed, -40% Sprint Stamina Efficiency",
+            "Effect Description": " +20% Sprint Speed, -40% Sprint Stamina Efficiency",
             "Effects": {
                 "Sprint_Stamina_Effeciency": "-0.4",
                 "Sprint_Speed": "0.2"
@@ -1567,7 +1567,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "Weapon",
-            "Effect Description ": " +30% Pistol/SMG Ammo Capacity, +10% Damage with Pistols and SMGs",
+            "Effect Description": " +30% Pistol/SMG Ammo Capacity, +10% Damage with Pistols and SMGs",
             "Effects": {
                 "Pistol/SMG_Ammo_Cap": "0.3",
                 "Pistol/SMG_Damage": "0.1"
@@ -1587,7 +1587,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": " +50% Reload Speed, DISABLES: Aim Down Sights",
+            "Effect Description": " +50% Reload Speed, DISABLES: Aim Down Sights",
             "Effects": {
                 "Reload_Speed": "0.5",
                 "No_ADS": "1"
@@ -1607,7 +1607,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": " +10% Team Stamina, +10% Team Stamina Regen",
+            "Effect Description": " +10% Team Stamina, +10% Team Stamina Regen",
             "Effects": {
                 "Team_Stamina_Regen": "0.1",
                 "Team_Stamina": "0.1"
@@ -1627,7 +1627,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": "No Movement Penalty for Strafe or Backpedal",
+            "Effect Description": "No Movement Penalty for Strafe or Backpedal",
             "Effects": {
                 "Qualitative": "No Movement Penalty for Strafe or Backpedal"
             }
@@ -1646,7 +1646,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "7",
             "Damage_Type": "Marked for Death",
-            "Effect Description ": "Mutations you Ping are highlighted and your team deals 10% increased damage to highlighted enemies.",
+            "Effect Description": "Mutations you Ping are highlighted and your team deals 10% increased damage to highlighted enemies.",
             "Effects": {
                 "Qualitative": "Mutations you Ping are highlighted and your team deals 10% increased damage to highlighted enemies."
             }
@@ -1665,7 +1665,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "6",
             "Damage_Type": "Melee",
-            "Effect Description ": " +60% Melee Damage. Your Melee Attacks cause cleave through enemies dealing damage in a large area. DISABLES: Sprint",
+            "Effect Description": " +60% Melee Damage. Your Melee Attacks cause cleave through enemies dealing damage in a large area. DISABLES: Sprint",
             "Effects": {
                 "Qualitative": "Your Melee Attacks cause cleave through enemies dealing damage in a large area. DISABLES: Sprint",
                 "Melee_Damage": "0.6",
@@ -1686,7 +1686,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": "Gain 30% Move Speed and Accuracy while crouched and using an LMG.",
+            "Effect Description": "Gain 30% Move Speed and Accuracy while crouched and using an LMG.",
             "Effects": {
                 "Qualitative": "Gain 30% Move Speed and Accuracy while crouched and using an LMG."
             }
@@ -1705,7 +1705,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": " +50% Revive Speed. When you use a Medical Accessory, it also restores 1 Trauma to the target.",
+            "Effect Description": " +50% Revive Speed. When you use a Medical Accessory, it also restores 1 Trauma to the target.",
             "Effects": {
                 "Qualitative": " +50% Revive Speed. When you use a Medical Accessory, it also restores 1 Trauma to the target.",
                 "Revive_Speed": "0.5"
@@ -1725,7 +1725,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": "First Aid and Defibrillators also recover 15 Trauma Damage and 1 Extra Life",
+            "Effect Description": "First Aid and Defibrillators also recover 15 Trauma Damage and 1 Extra Life",
             "Effects": {
                 "Qualitative": "First Aid and Defibrillators also recover 15 Trauma Damage and 1 Extra Life"
             }
@@ -1744,7 +1744,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "7",
             "Damage_Type": "-",
-            "Effect Description ": " +40% Melee Attack Speed, +30% Melee Attack Efficiency, Your Melee Attacks no longer stick in tough enemies. DISABLES: Aim Down Sights",
+            "Effect Description": " +40% Melee Attack Speed, +30% Melee Attack Efficiency, Your Melee Attacks no longer stick in tough enemies. DISABLES: Aim Down Sights",
             "Effects": {
                 "Qualitative": "Your Melee Attacks no longer stick in tough enemies",
                 "Melee_Speed": "0.4",
@@ -1766,7 +1766,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": "When you use a Medical Accessory, it has a 25% chance to have 100% increased effect.",
+            "Effect Description": "When you use a Medical Accessory, it has a 25% chance to have 100% increased effect.",
             "Effects": {
                 "Qualitative": "When you use a Medical Accessory, it has a 25% chance to have 100% increased effect."
             }
@@ -1785,7 +1785,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": "Each time your team loots Copper, you can gain 3 additional Copper, stacking up to 75 additional Copper",
+            "Effect Description": "Each time your team loots Copper, you can gain 3 additional Copper, stacking up to 75 additional Copper",
             "Effects": {
                 "Qualitative": "Each time your team loots Copper, you can gain 3 additional Copper, stacking up to 75 additional Copper"
             }
@@ -1804,7 +1804,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": " +15% Damage Resistance, +10 Health, DISABLES: Aim Down Sights",
+            "Effect Description": " +15% Damage Resistance, +10 Health, DISABLES: Aim Down Sights",
             "Effects": {
                 "Health": "10",
                 "Damage_Resistance": "0.15",
@@ -1825,7 +1825,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +5% Damage Resistance, +5 Health",
+            "Effect Description": " +5% Damage Resistance, +5 Health",
             "Effects": {
                 "Health": "5",
                 "Damage_Resistance": "0.05"
@@ -1845,7 +1845,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": "Kills with Melee weapons have a 3% chance to spawn ammo or Razor Wire.",
+            "Effect Description": "Kills with Melee weapons have a 3% chance to spawn ammo or Razor Wire.",
             "Effects": {
                 "Qualitative": "Kills with Melee weapons have a 3% chance to spawn ammo or Razor Wire."
             }
@@ -1864,7 +1864,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": " +75% Use Speed, -5% Damage Resistance",
+            "Effect Description": " +75% Use Speed, -5% Damage Resistance",
             "Effects": {
                 "Use_Speed": "0.75",
                 "Damage_Resistance": "-0.05"
@@ -1884,7 +1884,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": " +100% Stamina Regeneration, -50% Maximum Stamina",
+            "Effect Description": " +100% Stamina Regeneration, -50% Maximum Stamina",
             "Effects": {
                 "Stamina_Regen": "0.999",
                 "Stamina": "-0.5"
@@ -1904,7 +1904,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": " -10% Health, +1 Team Extra Life",
+            "Effect Description": " -10% Health, +1 Team Extra Life",
             "Effects": {
                 "Health": "-0.1",
                 "Team_Extra_Life": "1"
@@ -1924,7 +1924,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "7",
             "Damage_Type": "-",
-            "Effect Description ": "Gain +15% Damage Resistance while you have Temporary Health",
+            "Effect Description": "Gain +15% Damage Resistance while you have Temporary Health",
             "Effects": {
                 "Qualitative": "While you have Temporary Health",
                 "Damage_Resistance": "0.15"
@@ -1943,7 +1943,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": "You can sense nearby Offensive Accessories. More Offensive Accessories spawn.",
+            "Effect Description": "You can sense nearby Offensive Accessories. More Offensive Accessories spawn.",
             "Effects": {
                 "Qualitative": "You can sense nearby Offensive Accessories. More Offensive Accessories spawn."
             }
@@ -1962,7 +1962,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": " +30% Sprint Efficiency, -7% Damage Resistance",
+            "Effect Description": " +30% Sprint Efficiency, -7% Damage Resistance",
             "Effects": {
                 "Sprint_Stamina_Effeciency": "0.3",
                 "Damage_Resistance": "-0.07"
@@ -1982,7 +1982,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": "When a horde is triggered, your team restores 15% Ammo and gains 10% Move Speed while firing, 25% Reload Speed, and 25% Swap Speed for 30 seconds.",
+            "Effect Description": "When a horde is triggered, your team restores 15% Ammo and gains 10% Move Speed while firing, 25% Reload Speed, and 25% Swap Speed for 30 seconds.",
             "Effects": {
                 "Qualitative": "When a horde is triggered, your team restores 15% Ammo and gains 10% Move Speed while firing, 25% Reload Speed, and 25% Swap Speed for 30 seconds."
             }
@@ -2001,7 +2001,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "3",
             "Damage_Type": "-",
-            "Effect Description ": " +30% Accuracy",
+            "Effect Description": " +30% Accuracy",
             "Effects": {
                 "Accuracy": "0.3"
             }
@@ -2020,7 +2020,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": "Kills from greater than 15 meters grant 5 Temporary Health to teammates within 15 meters of the target.",
+            "Effect Description": "Kills from greater than 15 meters grant 5 Temporary Health to teammates within 15 meters of the target.",
             "Effects": {
                 "Qualitative": "Kills from greater than 15 meters grant 5 Temporary Health to teammates within 15 meters of the target."
             }
@@ -2039,7 +2039,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": " +10% Damage Resistance, +5 Health, -20% Stamina Efficiency",
+            "Effect Description": " +10% Damage Resistance, +5 Health, -20% Stamina Efficiency",
             "Effects": {
                 "Stamina_Efficiency": "-0.2",
                 "Health": "5",
@@ -2060,7 +2060,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "3",
             "Damage_Type": "ADS",
-            "Effect Description ": "Every 0.75 seconds you Aim Down Sights increases your Damage by 10% (up to 3 stacks).",
+            "Effect Description": "Every 0.75 seconds you Aim Down Sights increases your Damage by 10% (up to 3 stacks).",
             "Effects": {
                 "Qualitative": "Every 0.75 seconds you Aim Down Sights increases your Damage by 10% (up to 3 stacks).",
                 "Damage": "0.3"
@@ -2080,7 +2080,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "3",
             "Damage_Type": "-",
-            "Effect Description ": "Precision Kills grant you 8% Movement Speed for 5 Seconds.",
+            "Effect Description": "Precision Kills grant you 8% Movement Speed for 5 Seconds.",
             "Effects": {
                 "Qualitative": "Precision Kills grant you 8% Movement Speed for 5 Seconds.",
                 "Move_Speed": "0.25"
@@ -2100,7 +2100,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": "While reviving teammates, take 3 less damage from all Ridden. Heals teammates for an additional 10 Health when you revive them.",
+            "Effect Description": "While reviving teammates, take 3 less damage from all Ridden. Heals teammates for an additional 10 Health when you revive them.",
             "Effects": {
                 "Qualitative": "While reviving teammates, take 3 less damage from all Ridden. Heals teammates for an additional 10 Health when you revive them."
             }
@@ -2118,7 +2118,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": "When you use a medical accessory, the target heals for an additional 20 Health over 30 Seconds.",
+            "Effect Description": "When you use a medical accessory, the target heals for an additional 20 Health over 30 Seconds.",
             "Effects": {
                 "Qualitative": "When you use a medical accessory, the target heals for an additional 20 Health over 30 Seconds."
             }
@@ -2137,7 +2137,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "7",
             "Damage_Type": "-",
-            "Effect Description ": "Reloading a gun within 1 Second of reaching low ammo will increase its magazine size by 30% until the next reload.",
+            "Effect Description": "Reloading a gun within 1 Second of reaching low ammo will increase its magazine size by 30% until the next reload.",
             "Effects": {
                 "Qualitative": "Reloading a gun within 1 Second of reaching low ammo will increase its magazine size by 30% until the next reload."
             }
@@ -2156,7 +2156,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "8",
             "Damage_Type": "Bullet / Melee",
-            "Effect Description ": "Changing Weapons within 1 Second of reaching low ammo grants +20% Damage for 5 Seconds.",
+            "Effect Description": "Changing Weapons within 1 Second of reaching low ammo grants +20% Damage for 5 Seconds.",
             "Effects": {
                 "Qualitative": "Changing Weapons within 1 Second of reaching low ammo grants +20% Damage for 5 Seconds."
             }
@@ -2175,7 +2175,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "8",
             "Damage_Type": "Fire",
-            "Effect Description ": " +100% Fire Damage, Kills with fire grant you 3 Temporary Health. You can sense flammable objects nearby.",
+            "Effect Description": " +100% Fire Damage, Kills with fire grant you 3 Temporary Health. You can sense flammable objects nearby.",
             "Effects": {
                 "Qualitative": " +100% Fire Damage, Kills with fire grant you 3 Temporary Health. You can sense flammable objects nearby."
             }
@@ -2193,7 +2193,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": " +50% Accuracy, DISABLES: Aim Down Sights",
+            "Effect Description": " +50% Accuracy, DISABLES: Aim Down Sights",
             "Effects": {
                 "Accuracy": "0.5",
                 "No_ADS": "1"
@@ -2213,7 +2213,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": " +40% Sprint Efficiency, When you take Damage while Sprinting you lose all Stamina.",
+            "Effect Description": " +40% Sprint Efficiency, When you take Damage while Sprinting you lose all Stamina.",
             "Effects": {
                 "Qualitative": " +40% Sprint Efficiency, When you take Damage while Sprinting you lose all Stamina.",
                 "Sprint_Stamina_Effeciency": "0.4"
@@ -2233,7 +2233,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "3",
             "Damage_Type": "Weakpoint",
-            "Effect Description ": " +30% Weakspot Damage, -5% Damage Resistance",
+            "Effect Description": " +30% Weakspot Damage, -5% Damage Resistance",
             "Effects": {
                 "Weakspot_Damage": "0.3",
                 "Damage_Resistance": "-0.5"
@@ -2253,7 +2253,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": " +20% Reload Speed",
+            "Effect Description": " +20% Reload Speed",
             "Effects": {
                 "Reload_Speed": "0.2"
             }
@@ -2271,7 +2271,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": " +40% Stamina",
+            "Effect Description": " +40% Stamina",
             "Effects": {
                 "Stamina": "0.4"
             }
@@ -2290,7 +2290,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "1",
             "Damage_Type": "Weakpoint",
-            "Effect Description ": " +20% Weakspot Damage",
+            "Effect Description": " +20% Weakspot Damage",
             "Effects": {
                 "Weakspot_Damage": "0.2"
             }
@@ -2309,7 +2309,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "3",
             "Damage_Type": "Weapon",
-            "Effect Description ": " +35% Movement Speed while firing with Shotguns, +10% Damage with shotguns.",
+            "Effect Description": " +35% Movement Speed while firing with Shotguns, +10% Damage with shotguns.",
             "Effects": {
                 "Qualitative": " +35% Movement Speed while firing with Shotguns, +10% Damage with shotguns."
             }
@@ -2328,7 +2328,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "9",
             "Damage_Type": "-",
-            "Effect Description ": " +225% Revive Speed, +20% Reduced Incap Trauma. DISABLES: Offensive Accessories",
+            "Effect Description": " +225% Revive Speed, +20% Reduced Incap Trauma. DISABLES: Offensive Accessories",
             "Effects": {
                 "Qualitative": " +225% Revive Speed, +20% Reduced Incap Trauma. DISABLES: Offensive Accessories",
                 "Revive_Speed": "2.25",
@@ -2349,7 +2349,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": "You can sprint while shooting",
+            "Effect Description": "You can sprint while shooting",
             "Effects": {
                 "Qualitative": "You can sprint while shooting"
             }
@@ -2368,7 +2368,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": " +12% Move Speed, When you take Damage, your move speed reduced by 12% for 3 Seconds.",
+            "Effect Description": " +12% Move Speed, When you take Damage, your move speed reduced by 12% for 3 Seconds.",
             "Effects": {
                 "Qualitative": " +12% Move Speed, When you take Damage, your move speed reduced by 12% for 3 Seconds.",
                 "Move_Speed": "0.12"
@@ -2388,7 +2388,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "5",
             "Damage_Type": "Weakpoint",
-            "Effect Description ": "Gain 5% Weakspot Damage for Each Precision Kill in the last 10 Seconds.",
+            "Effect Description": "Gain 5% Weakspot Damage for Each Precision Kill in the last 10 Seconds.",
             "Effects": {
                 "Qualitative": "Gain 5% Weakspot Damage for Each Precision Kill in the last 10 Seconds."
             }
@@ -2407,7 +2407,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": "Your team heals 15Health, 7 Trauma Damage and refills 10% Ammo at the start of each level.",
+            "Effect Description": "Your team heals 15Health, 7 Trauma Damage and refills 10% Ammo at the start of each level.",
             "Effects": {
                 "Qualitative": "Your team heals 15Health, 7 Trauma Damage and refills 10% Ammo at the start of each level."
             }
@@ -2426,7 +2426,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "3",
             "Damage_Type": "-",
-            "Effect Description ": "Take 1 less damage from all Ridden.",
+            "Effect Description": "Take 1 less damage from all Ridden.",
             "Effects": {
                 "Qualitative": "Take 1 less damage from all Ridden."
             }
@@ -2445,7 +2445,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": " +40% Reload Speed with Shotguns.",
+            "Effect Description": " +40% Reload Speed with Shotguns.",
             "Effects": {
                 "Qualitative": " +40% Reload Speed with Shotguns."
             }
@@ -2464,7 +2464,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": " +50% Use Speed, +10% Stamina",
+            "Effect Description": " +50% Use Speed, +10% Stamina",
             "Effects": {
                 "Use_Speed": "0.5",
                 "Stamina": "0.1"
@@ -2484,7 +2484,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": " +1 Extra Life, +5 Health",
+            "Effect Description": " +1 Extra Life, +5 Health",
             "Effects": {
                 "Health": "5",
                 "Extra_Life": "1"
@@ -2504,7 +2504,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "11",
             "Damage_Type": "-",
-            "Effect Description ": "Each teammate gets 100 Bonus Copper at the start of each level.",
+            "Effect Description": "Each teammate gets 100 Bonus Copper at the start of each level.",
             "Effects": {
                 "Qualitative": "Each teammate gets 100 Bonus Copper at the start of each level."
             }
@@ -2523,7 +2523,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "Weapon",
-            "Effect Description ": " +30% Shotgun Ammo Capacity, +10% Damage with Shotguns.",
+            "Effect Description": " +30% Shotgun Ammo Capacity, +10% Damage with Shotguns.",
             "Effects": {
                 "Qualitative": " +30% Shotgun Ammo Capacity, +10% Damage with Shotguns."
             }
@@ -2542,7 +2542,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +25% Weapon Swap Speed, +15% Recoil Control, +15% Accuracy",
+            "Effect Description": " +25% Weapon Swap Speed, +15% Recoil Control, +15% Accuracy",
             "Effects": {
                 "Weapon_Swap_Speed": "0.25",
                 "Accuracy": "0.15",
@@ -2563,7 +2563,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": " +2 Support Inventory, -5% Move Speed",
+            "Effect Description": " +2 Support Inventory, -5% Move Speed",
             "Effects": {
                 "Move_Speed": "-0.5",
                 "Support_Inventory": "2"
@@ -2583,7 +2583,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "7",
             "Damage_Type": "Shredder",
-            "Effect Description ": "Each bullet hit causes the target to take 1% increased damage for 3 Seconds (Stacks up to 15%).",
+            "Effect Description": "Each bullet hit causes the target to take 1% increased damage for 3 Seconds (Stacks up to 15%).",
             "Effects": {
                 "Qualitative": "Each bullet hit causes the target to take 1% increased damage for 3 Seconds (Stacks up to 15%)."
             }
@@ -2601,7 +2601,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "5",
             "Damage_Type": "Bullet",
-            "Effect Description ": " +7.5% Bullet Damage, +15% Effective Range",
+            "Effect Description": " +7.5% Bullet Damage, +15% Effective Range",
             "Effects": {
                 "Bullet_Damage": "0.075",
                 "Effective_Bullet_Range": "0.15"
@@ -2621,7 +2621,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "3",
             "Damage_Type": "-",
-            "Effect Description ": " +5 Health, +10% Melee Stamina Efficiency, +20% Melee Attack Speed",
+            "Effect Description": " +5 Health, +10% Melee Stamina Efficiency, +20% Melee Attack Speed",
             "Effects": {
                 "Melee_Speed": "0.2",
                 "Health": "5",
@@ -2642,7 +2642,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "3",
             "Damage_Type": "-",
-            "Effect Description ": " +200% Revive Speed",
+            "Effect Description": " +200% Revive Speed",
             "Effects": {
                 "Revive_Speed": "1.999"
             }
@@ -2661,7 +2661,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "10",
             "Damage_Type": "-",
-            "Effect Description ": " +4% Movement Speed while using an SMG, +35% Reload Speed while using an SMG.",
+            "Effect Description": " +4% Movement Speed while using an SMG, +35% Reload Speed while using an SMG.",
             "Effects": {
                 "Qualitative": " +4% Movement Speed while using an SMG, +35% Reload Speed while using an SMG."
             }
@@ -2680,7 +2680,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "5",
             "Damage_Type": "Melee",
-            "Effect Description ": " +20% Melee Damage, +10% Damage Resistance while using a Melee weapon, -15% Ammo Capacity",
+            "Effect Description": " +20% Melee Damage, +10% Damage Resistance while using a Melee weapon, -15% Ammo Capacity",
             "Effects": {
                 "Melee_Damage": "0.2",
                 "Ammo_Capacity": "-0.15",
@@ -2701,7 +2701,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "5",
             "Damage_Type": "-",
-            "Effect Description ": "Every 0.75 seconds you Aim Down Sights gives 10% Recoil Control (up to 3 stacks) +80% Aim Speed, -50% ADS Move Speed",
+            "Effect Description": "Every 0.75 seconds you Aim Down Sights gives 10% Recoil Control (up to 3 stacks) +80% Aim Speed, -50% ADS Move Speed",
             "Effects": {
                 "Aim_Speed": "0.8",
                 "Recoil_Control": "0.3",
@@ -2722,7 +2722,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "7",
             "Damage_Type": "-",
-            "Effect Description ": "Pain Meds you apply also grant +20% Stamina Regen, +15% Reload Speed, and +15% Weapon Swap Speed for 60 Seconds.",
+            "Effect Description": "Pain Meds you apply also grant +20% Stamina Regen, +15% Reload Speed, and +15% Weapon Swap Speed for 60 Seconds.",
             "Effects": {
                 "Qualitative": "Pain Meds you apply also grant +20% Stamina Regen, +15% Reload Speed, and +15% Weapon Swap Speed for 60 Seconds."
             }
@@ -2741,7 +2741,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "Weapon",
-            "Effect Description ": " +30% Sniper Ammo Capacity, +10% Damage with Sniper Rifles.",
+            "Effect Description": " +30% Sniper Ammo Capacity, +10% Damage with Sniper Rifles.",
             "Effects": {
                 "Qualitative": " +30% Sniper Ammo Capacity, +10% Damage with Sniper Rifles."
             }
@@ -2760,7 +2760,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "7",
             "Damage_Type": "Sunder",
-            "Effect Description ": "Melee hits cause the target to take 20% Increased damage for 5 Seconds.",
+            "Effect Description": "Melee hits cause the target to take 20% Increased damage for 5 Seconds.",
             "Effects": {
                 "Qualitative": "Melee hits cause the target to take 20% Increased damage for 5 Seconds."
             }
@@ -2778,7 +2778,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +20% Stamina, +20% Sprint Efficiency  +5 Health",
+            "Effect Description": " +20% Stamina, +20% Sprint Efficiency  +5 Health",
             "Effects": {
                 "Stamina": "0.2",
                 "Health": "5",
@@ -2798,7 +2798,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": "You can sense nearby Support Accessories. More Support Accessories Spawn",
+            "Effect Description": "You can sense nearby Support Accessories. More Support Accessories Spawn",
             "Effects": {
                 "Qualitative": "You can sense nearby Support Accessories. More Support Accessories Spawn"
             }
@@ -2817,7 +2817,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": " -10% Health, +1 Team Offensive Accessory",
+            "Effect Description": " -10% Health, +1 Team Offensive Accessory",
             "Effects": {
                 "Health": "-0.1",
                 "Team_Offensive_Inventory": "1"
@@ -2837,7 +2837,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "Weapon",
-            "Effect Description ": " +30% Rifle Ammo Capacity, +10% Damage with Assault Rifles, and LMGs.",
+            "Effect Description": " +30% Rifle Ammo Capacity, +10% Damage with Assault Rifles, and LMGs.",
             "Effects": {
                 "Qualitative": " +30% Rifle Ammo Capacity, +10% Damage with Assault Rifles, and LMGs."
             }
@@ -2855,7 +2855,7 @@
             "Supply_Track": "KSC Convoy",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " -10% Health, +1 Team Quick Item Inventory",
+            "Effect Description": " -10% Health, +1 Team Quick Item Inventory",
             "Effects": {
                 "Health": "-0.1",
                 "Team_Quick_Item_Inventory": "1"
@@ -2875,7 +2875,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "9",
             "Damage_Type": "-",
-            "Effect Description ": "Precision Kills grant +20% Accuracy for 5 seconds.",
+            "Effect Description": "Precision Kills grant +20% Accuracy for 5 seconds.",
             "Effects": {
                 "Qualitative": "Precision Kills grant +20% Accuracy for 5 seconds.",
                 "Accuracy": "0.2"
@@ -2895,7 +2895,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "8",
             "Damage_Type": "-",
-            "Effect Description ": "When you take a single hit for 15 or more damage, heal 10 Health over 5 Seconds.",
+            "Effect Description": "When you take a single hit for 15 or more damage, heal 10 Health over 5 Seconds.",
             "Effects": {
                 "Qualitative": "When you take a single hit for 15 or more damage, heal 10 Health over 5 Seconds."
             }
@@ -2914,7 +2914,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": "Every 0.75 seconds you Aim Down Sights gives 5% Weakspot Damage (up to 3 stacks) +50% Aim Speed, -5% Damage Resistance ",
+            "Effect Description": "Every 0.75 seconds you Aim Down Sights gives 5% Weakspot Damage (up to 3 stacks) +50% Aim Speed, -5% Damage Resistance ",
             "Effects": {
                 "Qualitative": "Every 0.75 seconds you Aim Down Sights gives 5% Weakspot Damage (up to 3 stacks) +50% Aim Speed, -5% Damage Resistance ",
                 "Aim_Speed": "0.5",
@@ -2936,7 +2936,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": "You can equip a Primary weapon in your Secondary slot. -25% Swap speed",
+            "Effect Description": "You can equip a Primary weapon in your Secondary slot. -25% Swap speed",
             "Effects": {
                 "Qualitative": "You can equip a Primary weapon in your Secondary slot. -25% Swap speed",
                 "Weapon_Swap_Speed": "-0.25"
@@ -2956,7 +2956,7 @@
             "Supply_Track": "Liberators",
             "Position_In_Track": "1",
             "Damage_Type": "-",
-            "Effect Description ": " +2 Quick Item Inventory, -5% Move Speed",
+            "Effect Description": " +2 Quick Item Inventory, -5% Move Speed",
             "Effects": {
                 "Move_Speed": "-0.05",
                 "Quick_Item_Inventory": "2"
@@ -2975,7 +2975,7 @@
             "Supply_Track": "Nest",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": "You can sense nearby Quick Accessories. More Quick Accessories spawn.",
+            "Effect Description": "You can sense nearby Quick Accessories. More Quick Accessories spawn.",
             "Effects": {
                 "Qualitative": "You can sense nearby Quick Accessories. More Quick Accessories spawn."
             }
@@ -2994,7 +2994,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": "Melee kills grant 1 Temporary Health to you and nearby teammates.",
+            "Effect Description": "Melee kills grant 1 Temporary Health to you and nearby teammates.",
             "Effects": {
                 "Qualitative": "Melee kills grant 1 Temporary Health to you and nearby teammates."
             }
@@ -3013,7 +3013,7 @@
             "Supply_Track": "The Strip",
             "Position_In_Track": "0",
             "Damage_Type": "-",
-            "Effect Description ": " +15 Health ",
+            "Effect Description": " +15 Health ",
             "Effects": {
                 "Health": "15"
             }
@@ -3031,7 +3031,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": "You can sense nearby Weapons. More weapons spawn",
+            "Effect Description": "You can sense nearby Weapons. More weapons spawn",
             "Effects": {
                 "Qualitative": "You can sense nearby Weapons. More weapons spawn"
             }
@@ -3050,7 +3050,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "4",
             "Damage_Type": "-",
-            "Effect Description ": " +10 Team Health",
+            "Effect Description": " +10 Team Health",
             "Effects": {
                 "Team_Health": "10"
             }
@@ -3069,7 +3069,7 @@
             "Supply_Track": "Alley",
             "Position_In_Track": "2",
             "Damage_Type": "-",
-            "Effect Description ": " +30% Reload Speed, -5% Damage Resistance",
+            "Effect Description": " +30% Reload Speed, -5% Damage Resistance",
             "Effects": {
                 "Reload_Speed": "0.3",
                 "Damage_Resistance": "-0.05"
@@ -3089,7 +3089,7 @@
             "Supply_Track": "Clinic",
             "Position_In_Track": "6",
             "Damage_Type": "-",
-            "Effect Description ": " +30% Trauma Resistance, -100% Fire Resistance",
+            "Effect Description": " +30% Trauma Resistance, -100% Fire Resistance",
             "Effects": {
                 "Fire_Resistance": "-0.999",
                 "Trauma_Resistance": "0.3"
@@ -3109,7 +3109,7 @@
             "Supply_Track": "N/A",
             "Position_In_Track": "N/A",
             "Damage_Type": "-",
-            "Effect Description ": "Kills while at Critical Health recover 1 Health",
+            "Effect Description": "Kills while at Critical Health recover 1 Health",
             "Effects": {
                 "Qualitative": "Kills while at Critical Health recover 1 Health"
             }

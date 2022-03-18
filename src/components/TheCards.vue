@@ -79,9 +79,10 @@
           </div>
         </DisclosurePanel>
         <!-- sort  may use later -->
-        <!-- <div class="col-start-1 row-start-1 py-4">
+        <div class="col-start-1 row-start-1 py-4">
           <div class="flex justify-end max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Menu as="div" class="relative inline-block">
+            <p class="text-gray-600">{{ cardStore.filteredCards.length }} Results</p>
+            <!-- <Menu as="div" class="relative inline-block">
               <div class="flex">
                 <MenuButton class="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900">
                   Sort
@@ -100,9 +101,9 @@
                   </div>
                 </MenuItems>
               </transition>
-            </Menu>
+            </Menu> -->
           </div>
-        </div> -->
+        </div>
       </Disclosure>
 
       <!-- Product grid -->
@@ -116,10 +117,12 @@
             <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                 <a v-for="card in cardStore.filteredCards" :key="card.id" class="group" >
                 <div class="w-full aspect-w-2 aspect-h-3 bg-gray-200 rounded-lg overflow-hidden">
+                    <!-- Front of Card -->
                     <img :src="'/campaign cards/' + card.Image" :alt="card.Name" class="w-full h-full object-center object-cover group-hover:opacity-75"
-                      v-show="!cardStore.repo[card.id].flipped" @click="cardStore.repo[card.id].flipped = !cardStore.repo[card.id].flipped"/>
+                      v-show="!cardStore.repo[card.id].flipped" @click="flipCard(card.id)"/>
+                    <!-- Back of Card -->
                     <div class="p-2 w-full h-full object-center object-cover group-hover:opacity-50"
-                      v-show="cardStore.repo[card.id].flipped" @click="cardStore.repo[card.id].flipped = !cardStore.repo[card.id].flipped">
+                      v-show="cardStore.repo[card.id].flipped" @click="flipCard(card.id)">
                       <p class="text-gray-900 group-hover:text-gray-700">Type: {{ card.Type || 'N/A' }}</p>
                       <p class="text-gray-900 group-hover:text-gray-700">Affinity: {{ card.Card_Affinity || 'N/A' }}</p>
                       <p class="text-gray-900 group-hover:text-gray-700">Team Effect?: {{ card.Team_Effect || 'N/A' }}</p>
@@ -158,6 +161,7 @@ import Slider from '@vueform/slider'
 import { useCardsStore } from "@/stores/cards"
 
 const cardStore = useCardsStore();
+const flipCard = (cardId) => {cardStore.repo[cardId].flipped = !cardStore.repo[cardId].flipped}
 </script>
 <style src="@vueform/multiselect/themes/default.css"></style>
 <style src="@vueform/slider/themes/default.css"></style>

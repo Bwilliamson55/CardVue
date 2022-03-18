@@ -1,11 +1,15 @@
-import { ref, computed, reactive } from 'vue';
+import { ref, computed, reactive, watch } from 'vue';
 import { defineStore } from 'pinia';
 import cardsDataSeed from "@/CardsSeed.json";
+import {fuzzy} from "@/composables/fuzzy.js";
 
 export const useCardsStore = defineStore("cards", () => {
-
+    
     let baseRepo = cardsDataSeed.Cards; //hydrate the repo with the json if not already
     const repo = ref(baseRepo);
+    const theSearch = ref('')
+    const searchKeys = ['Type', 'Card_Affinity', 'Name', 'Supply_Line', 'Supply_Track', 'Effect Description']
+
     const gridFilterDefaults = {
         teamEffect:'',
         costMinMax: {
@@ -21,20 +25,23 @@ export const useCardsStore = defineStore("cards", () => {
     
     let gridFilters = reactive({...gridFilterDefaults});
     
+    //computed
     const filteredCards = computed(() => {
         return filterCardsByRange(
             filterCardsByEffect(
                 filterCardsByDamageType(
                     filterCardsBySupplyLine(
                         filterCardsBySupplyTrack(
-                            filterCardsByTeamEffect(repo.value)
+                            filterCardsByTeamEffect(
+                                filterCardsByPattern(repo.value)
+                            )
                         )
                     )
                 )
             )
         )
     });
-
+    
     const activeFilterCount = computed(() => {
         let count = 0 //excluding cost range
         let filtList = ['damageType', 'effects', 'supplyLine', 'supplyTrack', 'teamEffect']
@@ -59,9 +66,18 @@ export const useCardsStore = defineStore("cards", () => {
             damageTypes: getUniqueValues(repo.value, 'Damage_Type').sort()
           }
     });
-    
-    // methods: clearAllFilters, getUniqueValues(arrofobj, key), filterCardsBy...(6 types)
+    const searchIndex = computed(() => {
+        
+    })
 
+    //watchers
+
+    watch(theSearch, (cur, old) => {
+        // let result = fuzzy.fuzzysearch(repo.value, searchKeys, theSearch);
+        // console.log(result);
+    })
+    
+    // methods:
     function clearAllFilters() {
         Object.assign(gridFilters, gridFilterDefaults);
     }
@@ -100,6 +116,10 @@ export const useCardsStore = defineStore("cards", () => {
         if (gridFilters.effects.length <= 0){return Cards} 
         return Cards.filter(card => gridFilters.effects.find(el => el in card.Effects))
     }
+    function filterCardsByPattern(Cards){
+        if (theSearch.length <= 0){return Cards}
+        return fuzzy.fuzzysearch(Cards, searchKeys, theSearch)
+    }
 
     return {
         repo,
@@ -107,7 +127,8 @@ export const useCardsStore = defineStore("cards", () => {
         cardFilters,
         filteredCards,
         gridFilters,
-        clearAllFilters
+        clearAllFilters,
+        theSearch
     }
 }, {
     persist: true

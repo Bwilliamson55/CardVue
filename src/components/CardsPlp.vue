@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="cards-plp">
       
       <!-- <div class="text-center py-16 px-4 sm:px-6 lg:px-8">
         <h1 class="text-4xl font-extrabold tracking-tight text-gray-900">Workspace</h1>
@@ -7,7 +7,7 @@
       </div> -->
 
       <!-- Filters -->
-      <Disclosure as="section" aria-labelledby="filter-heading" class="relative z-10 border-t border-b border-gray-200 grid items-center">
+      <Disclosure as="section" aria-labelledby="filter-heading" class="relative z-2 border-t border-b border-gray-200 grid items-center">
         <h2 id="filter-heading" class="sr-only">Filters</h2>
         <div class="relative col-start-1 row-start-1 py-4">
           <div class="max-w-7xl mx-auto flex space-x-6 divide-x divide-gray-200 text-sm px-4 sm:px-6 lg:px-8">
@@ -106,7 +106,7 @@
         </div>
       </Disclosure>
 
-      <!-- Product grid -->
+      <!-- Card grid -->
       <section aria-labelledby="products-heading" class="max-w-7xl mx-auto overflow-hidden sm:px-6 lg:px-8">
         <h2 id="products-heading" class="sr-only">Cards</h2>
 
@@ -114,7 +114,7 @@
             <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
             <h2 class="sr-only">Cards</h2>
             
-            <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+            <div class="grid grid-cols-2 gap-y-3 gap-x-2 sm:gap-y-10 sm:gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
                 <a v-for="card in cardStore.filteredCards" :key="card.id" class="group" >
                 <div class="w-full aspect-w-2 aspect-h-3 bg-gray-200 rounded-lg overflow-hidden">
                     <!-- Front of Card -->
@@ -146,14 +146,11 @@
 </template>
 
 <script setup>
+
 import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
 } from '@headlessui/vue'
 import {FilterIcon} from '@heroicons/vue/solid'
 import Multiselect from '@vueform/multiselect'

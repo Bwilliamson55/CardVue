@@ -1,0 +1,40 @@
+{
+    "Decks": [
+        {
+            "id": 0,
+            "sort": 0,
+            "flipped": false,
+            "Name": "Sample Deck",
+            "Image": "admin_reload.jpg",
+            "Cards": [1, 2, 3, 4, 5],
+            "Totals": {}
+        },
+        {
+            "id": 1,
+            "sort": 0,
+            "flipped": false,
+            "Name": "Sample Deck1",
+            "Image": "admin_reload.jpg",
+            "Cards": [7, 2, 3, 4, 5],
+            "Totals": {}
+        },
+        {
+            "id": 2,
+            "sort": 0,
+            "flipped": false,
+            "Name": "Sample Deck",
+            "Image": "belt_clip.jpg",
+            "Cards": [9, 2, 3, 4, 5],
+            "Totals": {}
+        },
+        {
+            "id": 3,
+            "sort": 0,
+            "flipped": false,
+            "Name": "Sample Deck",
+            "Image": "ammo_mule.jpg",
+            "Cards": [55, 2, 3, 4, 5],
+            "Totals": {}
+        }
+    ]
+}

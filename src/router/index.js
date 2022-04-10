@@ -1,10 +1,12 @@
 import {createRouter, createWebHistory, useRoute} from 'vue-router';
 import TheDashboard from "@/components/TheDashboard.vue";
-import TheCards from "@/components/TheCards.vue";
+import TheCards from "@/views/TheCards.vue";
+import TheDecks from "@/views/TheDecks.vue"
 
 const routes = [
     {path: '/', name: 'Dashboard', component: TheDashboard, alias: "/home"},
-    {path: '/cards', name: 'Cards', component: TheCards, alias: "/cards"}
+    {path: '/cards', name: 'Cards', component: TheCards, alias: "/cards"},
+    {path: '/decks', name: 'Decks', component: TheDecks, alias: "/decks"}
     // {
     //     path: '/protected',
     //     name: 'protected',
